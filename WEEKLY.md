@@ -33,3 +33,7 @@ Use ONLY the ZapierP connection (the Pixevon one). Never use the main Zapier con
 - selected_api `App232404CLIAPI`, workspace_id `6af9ef42a350f0557435151e`, account_ids (all three, Instagram, TikTok, LinkedIn, all named Pixevon Productions): `6af9ef85e7117b14ef734f8f`, `6af9f3911fc93c847bd2daef`, `6af9f28c1fc93c847bd2d796`. Post every reel to all three.
 - First `publer_upload_media` (upload_type url, file_urls = raw GitHub URL, workspace_id) then `publer_create_post` (state scheduled, scheduled_at ISO UTC, media_ids from the upload, text = caption). Always call `inspect_zapier_actions` for the exact parameters first.
 - Raw URL format: `https://raw.githubusercontent.com/reclaivo/pixevon/main/videos/<file>.mp4`
+
+
+## Variety rule (from Abyan)
+Every reel must be clearly different from all earlier ones AND very relevant to Pixevon's services (animation, explainer videos, logo animation, motion ads, social content, Pulso). Before writing a reel, read schedule.json and list all past hooks, topics, captions and scene graphics. Never repeat a hook, topic angle, caption opening or the same sequence of motion graphics. Vary the format (tip list, myth vs fact, before and after, mistake, question hook, quick how-to, service spotlight), the background images, the graphics used and the voice script wording. Keep a "topic" field per post in schedule.json so the next batch can check for overlap.
