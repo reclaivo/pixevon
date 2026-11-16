@@ -64,7 +64,7 @@ Rules for every reel: the FIRST scene must be a strong visual hook (shock and/or
 - Before delivering any reel, extract frames near the END of each scene (text fully visible) and confirm no animation overlaps, hides or sits over text. If it does, fix it, do not ship it.
 
 ## CAPTION RULE (informative, educational, SEO)
-Every caption: 3 to 5 short sentences. Start with a question or keyword phrase people search (e.g. "Short video hook tips"). Give 2 or 3 concrete, useful tips. Mention what Pixevon Productions offers in one sentence. End with "Contact us to learn more." then max 5 hashtags on a new line. No em dashes. Add a topic field in schedule.json.
+Every caption is LONG (500 to 700 characters), never a one-liner. Start with a question or keyword phrase people search (e.g. "Short video hook tips"). Give 2 or 3 concrete, useful tips. Mention what Pixevon Productions offers in one sentence. End with "Contact us to learn more." then max 5 hashtags on a new line. No em dashes. Add a topic field in schedule.json.
 
 ## PUBLER SAFETY RULE
 Create posts ONE AT A TIME (never in parallel); parallel creates silently dropped posts before. A response of payload {} or no failures key means failure. Free plan max 10 scheduled per account, so schedule at most 10 and leave the rest "made" for the retry task. Always use the caption_long text from schedule.json.
