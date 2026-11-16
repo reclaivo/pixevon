@@ -43,9 +43,11 @@
    "type": "Educational",
    "scheduled_at": "2026-11-17T12:30:00Z",
    "caption": "Why does some animation look cheap? Three common causes: too many ideas in one video, text too small to read, and no clear next step. Keep one idea per video, use large text and end with one action. Simple choices make professional animated videos. Contact us to learn more.\n\n#AnimatedVideos #MotionGraphics #VideoProduction #BrandVideo #AnimationTips",
-   "status": "made",
+   "status": "scheduled",
    "publer_post_id": null,
-   "topic": "animated video tips"
+   "topic": "animated video tips",
+   "caption_new": "Why does some animation look cheap? Three common causes: too many ideas in one video, text too small to read, and no clear next step. Keep one idea per video, use large text and end with one action. Simple choices make professional animated videos. Contact us to learn more.\n\n#AnimatedVideos #MotionGraphics #VideoProduction #BrandVideo #AnimationTips",
+   "note": "live in Publer with the older shorter caption"
   },
   {
    "file": "2026-11-17-R6-explainer-videos-v2.mp4",
@@ -54,9 +56,11 @@
    "type": "Service: explainer videos",
    "scheduled_at": "2026-11-17T18:30:00Z",
    "caption": "How do you explain a product in 30 seconds? Use the problem, solution, result structure. Show the pain first, then the fix, then the outcome. Animated explainer videos keep viewers watching longer than long product pages. We turn your offer into a clear animated explainer. Contact us to learn more.\n\n#ExplainerVideo #AnimatedExplainer #ProductVideo #VideoMarketing #AnimationStudio",
-   "status": "made",
+   "status": "scheduled",
    "publer_post_id": null,
-   "topic": "explainer videos"
+   "topic": "explainer videos",
+   "caption_new": "How do you explain a product in 30 seconds? Use the problem, solution, result structure. Show the pain first, then the fix, then the outcome. Animated explainer videos keep viewers watching longer than long product pages. We turn your offer into a clear animated explainer. Contact us to learn more.\n\n#ExplainerVideo #AnimatedExplainer #ProductVideo #VideoMarketing #AnimationStudio",
+   "note": "live in Publer with the older shorter caption"
   },
   {
    "file": "2026-11-18-R5-three-seconds-v2.mp4",
@@ -65,7 +69,7 @@
    "type": "Educational",
    "scheduled_at": "2026-11-18T12:30:00Z",
    "caption": "Short video hook tips: you have 3 seconds to win a viewer. Rule 1: open with a bold first line. Rule 2: add movement from frame one. Rule 3: give a reason to keep watching. Apply these to every reel and your retention improves. Contact us to learn more.\n\n#ShortFormVideo #VideoHooks #ReelsTips #SocialMediaMarketing #MotionGraphics",
-   "status": "made",
+   "status": "scheduled",
    "publer_post_id": null,
    "topic": "video hooks"
   },
@@ -76,9 +80,11 @@
    "type": "Service: logo animation",
    "scheduled_at": "2026-11-18T18:30:00Z",
    "caption": "What does an animated logo do for your brand? A 3 to 5 second logo intro makes your videos recognizable and consistent. Keep it short, use your brand colors and place it at the start of every video. People remember what moves. We animate logos for businesses. Contact us to learn more.\n\n#LogoAnimation #BrandIdentity #MotionGraphics #AnimationStudio #Branding",
-   "status": "made",
+   "status": "scheduled",
    "publer_post_id": null,
-   "topic": "logo animation"
+   "topic": "logo animation",
+   "caption_new": "What does an animated logo do for your brand? A 3 to 5 second logo intro makes your videos recognizable and consistent. Keep it short, use your brand colors and place it at the start of every video. People remember what moves. We animate logos for businesses. Contact us to learn more.\n\n#LogoAnimation #BrandIdentity #MotionGraphics #AnimationStudio #Branding",
+   "note": "live in Publer with the older shorter caption"
   },
   {
    "file": "2026-11-19-R8-motion-ads-v2.mp4",
@@ -87,9 +93,11 @@
    "type": "Service: motion ads",
    "scheduled_at": "2026-11-19T12:30:00Z",
    "caption": "Why do motion ads work better than static ads? Movement catches the eye in a fast feed. Lead with the benefit, keep text short and finish with one clear action. We design animated social media ads and motion graphics that stop the scroll. Contact us to learn more.\n\n#MotionAds #VideoAds #SocialMediaAds #MotionGraphics #DigitalMarketing",
-   "status": "made",
+   "status": "scheduled",
    "publer_post_id": null,
-   "topic": "motion ads"
+   "topic": "motion ads",
+   "caption_new": "Why do motion ads work better than static ads? Movement catches the eye in a fast feed. Lead with the benefit, keep text short and finish with one clear action. We design animated social media ads and motion graphics that stop the scroll. Contact us to learn more.\n\n#MotionAds #VideoAds #SocialMediaAds #MotionGraphics #DigitalMarketing",
+   "note": "live in Publer with the older shorter caption"
   },
   {
    "file": "2026-11-19-R9-documentaries.mp4",
@@ -98,9 +106,11 @@
    "type": "Service: documentaries",
    "scheduled_at": "2026-11-19T18:30:00Z",
    "caption": "How is a short documentary different from a normal video? It follows a story: a hook, a real story and proof. Pixevon Productions researches, scripts, voices and edits the whole film around your story, so your audience feels it. Contact us to learn more.\n\n#Documentary #ShortDocumentary #VideoProduction #Storytelling #BrandFilm",
-   "status": "made",
+   "status": "scheduled",
    "publer_post_id": null,
-   "topic": "documentaries"
+   "topic": "documentaries",
+   "caption_new": "How is a short documentary different from a normal video? It follows a story: a hook, a real story and proof. Pixevon Productions researches, scripts, voices and edits the whole film around your story, so your audience feels it. Contact us to learn more.\n\n#Documentary #ShortDocumentary #VideoProduction #Storytelling #BrandFilm",
+   "note": "live in Publer with the older shorter caption"
   },
   {
    "file": "2026-11-20-R10-no-video.mp4",
@@ -109,7 +119,7 @@
    "type": "Service: animation",
    "scheduled_at": "2026-11-20T12:30:00Z",
    "caption": "No video for your brand? Animation makes people stop scrolling. Motion graphics explain ideas faster than text and are easier to remember. We turn your story into a short animated video. Contact us to learn more.\n\n#Animation #MotionGraphics #BrandVideo #VideoMarketing #AnimationStudio",
-   "status": "made",
+   "status": "scheduled",
    "publer_post_id": null,
    "topic": "animation for brands"
   },
@@ -120,7 +130,7 @@
    "type": "Service: social media content",
    "scheduled_at": "2026-11-20T18:30:00Z",
    "caption": "Posting every day is hard. A simple system helps: plan the week, animate each idea, then post on a schedule. We make your social media content for you, planned, animated and automated. Contact us to learn more.\n\n#SocialMediaContent #ContentCreation #ContentStrategy #VideoMarketing #Automation",
-   "status": "made",
+   "status": "scheduled",
    "publer_post_id": null,
    "topic": "social media content"
   },
@@ -131,7 +141,7 @@
    "type": "Service: documentaries",
    "scheduled_at": "2026-11-21T12:30:00Z",
    "caption": "Every short documentary needs three things. A hook that earns attention, a story people care about, and proof that makes it believable. Get these right and viewers stay to the end. We make short documentaries. Contact us to learn more.\n\n#ShortDocumentary #Documentary #Storytelling #VideoProduction #BrandFilm",
-   "status": "made",
+   "status": "scheduled",
    "publer_post_id": null,
    "topic": "documentary structure"
   },
@@ -142,7 +152,7 @@
    "type": "Educational",
    "scheduled_at": "2026-11-21T18:30:00Z",
    "caption": "Most people watch video on mute. Add captions, use large text and show the idea with motion so it works without sound. Then add voice for those who listen. We design videos that work either way. Contact us to learn more.\n\n#VideoCaptions #ShortFormVideo #SocialMediaMarketing #MotionGraphics #VideoTips",
-   "status": "made",
+   "status": "scheduled",
    "publer_post_id": null,
    "topic": "captions on mute"
   },
