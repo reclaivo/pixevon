@@ -56,9 +56,9 @@ R['R8']=dict(title='Motion ads',scenes=[
  dict(line='We make your ads move.',head='We make your ads *move.*',hs=100,xc=dict(n='adcard',x=540,y=1140,sc=.95)),
  dict(line='Contact us to learn more.',layout='end',pre=.3,post=1.2),
 ])
-R['R9']=dict(title='Pulso never skips',scenes=[
- dict(line='Your competitors posted today.',head='Your competitors *posted* today.',hs=88,xc=dict(n='rivals',x=540,y=1150,sc=.95),pre=.08,post=.15),
- dict(line='Did you?',head='Did *you?*',hs=230,xc=dict(n='qmark',x=540,y=1190,sc=.9)),
- dict(line='Pulso never skips a day.',head='*Pulso* never skips a day.',hs=100,extra='pulsobig',sfx=[('shimmer',.1)]),
+R['R9']=dict(title='Documentaries',scenes=[
+ dict(line='Some stories need more than a caption.',head='Some stories need *more* than a caption.',hs=88,phone=dict(ui='feed',mode='stop',ry0=.4,ry1=.1,**PC),pre=.08,post=.15),
+ dict(line='We make short documentaries.',head='We make short *documentaries.*',hs=100,phone=dict(ui='player2',ry0=-.45,ry1=-.12,**PC)),
+ dict(line='Researched. Scripted. Voiced. Edited.',head='Researched. Scripted. *Voiced.* Edited.',hs=88,phone=dict(ui='timeline',ry0=.45,ry1=.15,**PC)),
  dict(line='Contact us to learn more.',layout='end',pre=.3,post=1.2),
 ])

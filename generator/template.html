@@ -19,7 +19,7 @@
 .eo{position:absolute;border-radius:50%;background:radial-gradient(rgba(79,103,184,.35),rgba(79,103,184,0) 70%)}
 .elg{position:relative;filter:drop-shadow(0 24px 40px rgba(10,26,68,.25))}.enm{font-size:96px;font-weight:800;letter-spacing:-.035em;margin-top:34px;white-space:nowrap}.etg{font-size:42px;color:#4F67B8;margin-top:14px;font-weight:600}
 .chips{display:flex;gap:16px;margin-top:46px}.chips span{padding:16px 34px;border-radius:60px;background:rgba(255,255,255,.85);border:2px solid rgba(79,103,184,.35);font-size:32px;font-weight:700;color:#0A1A44}
-.cta2{position:relative;overflow:hidden;display:flex;align-items:center;gap:22px;background:#0A1A44;color:#fff;border-radius:90px;padding:40px 70px;font-size:54px;font-weight:800;white-space:nowrap;margin-top:70px;box-shadow:0 24px 70px rgba(10,26,68,.35)}
+.cta2{position:relative;display:block;text-align:center;color:#0A1A44;font-size:52px;font-weight:700;white-space:nowrap;margin-top:70px}
 .sh2{position:absolute;top:0;bottom:0;width:140px;background:linear-gradient(100deg,transparent,rgba(255,255,255,.35),transparent);transform:skewX(-20deg)}
 .glow{position:absolute;border-radius:50%;background:radial-gradient(rgba(79,103,184,.45),rgba(79,103,184,0) 68%)}
 </style><script src="three.min.js"></script><script src="phone3d.js"></script></head><body><div id="root"></div><canvas id="pc" width="1080" height="1920"></canvas>
@@ -90,6 +90,10 @@ player(g,w,h,t){bgG(g,w,h,'#F7F9FF','#DCE6FB');g.fillStyle='#0A1A44';g.font='800
  g.save();g.beginPath();g.roundRect(54,300,672,740,40);g.clip();const cs=['#6C8BFF','#9DB1FF','#FFFFFF'];for(let i=0;i<3;i++){g.fillStyle=cs[i];g.globalAlpha=.9;g.beginPath();g.arc(390+Math.sin(t*2.2+i*2.1)*180,670+Math.cos(t*1.8+i*1.7)*150,60+i*25,0,7);g.fill()}g.globalAlpha=1;
  for(let i=0;i<5;i++){const hh=60+Math.abs(Math.sin(t*3+i))*140;pill(g,150+i*100,1000-hh,60,hh,14,'rgba(255,255,255,.35)')}g.restore();
  pill(g,54,1090,672,14,7,'rgba(10,26,68,.12)');pill(g,54,1090,672*Math.min(1,t/2.4),14,7,'#4F67B8');g.fillStyle='#3B4768';g.font='600 34px Arial';g.fillText('0:'+String(Math.min(30,Math.floor(t*12))).padStart(2,'0')+' / 0:30',64,1170)},
+player2(g,w,h,t){bgG(g,w,h,'#F7F9FF','#DCE6FB');g.fillStyle='#0A1A44';g.font='800 46px Arial';g.fillText('Short documentary',64,210);pill(g,54,300,672,740,40,'#0A1A44');
+ g.save();g.beginPath();g.roundRect(54,300,672,740,40);g.clip();const cs=['#6C8BFF','#9DB1FF','#FFFFFF'];for(let i=0;i<3;i++){g.fillStyle=cs[i];g.globalAlpha=.9;g.beginPath();g.arc(390+Math.sin(t*2.2+i*2.1)*180,670+Math.cos(t*1.8+i*1.7)*150,60+i*25,0,7);g.fill()}g.globalAlpha=1;
+ for(let i=0;i<5;i++){const hh=60+Math.abs(Math.sin(t*3+i))*140;pill(g,150+i*100,1000-hh,60,hh,14,'rgba(255,255,255,.35)')}g.restore();
+ pill(g,54,1090,672,14,7,'rgba(10,26,68,.12)');pill(g,54,1090,672*Math.min(1,t/2.4),14,7,'#4F67B8');g.fillStyle='#3B4768';g.font='600 34px Arial';g.fillText('0:'+String(Math.min(30,Math.floor(t*12))).padStart(2,'0')+' / 0:30',64,1170)},
 feed(g,w,h,t,o){bgG(g,w,h,'#F4F6FC','#DDE4F6');const fast=o.mode==='fast';const stop=!fast&&t>1.1;const sc=fast?t*1500:(stop?1.1*1500*.0+ (1-Math.exp(-(t)*2))*1500:t*1500);
  g.save();g.beginPath();g.rect(0,150,w,1500);g.clip();const H=420;const off=fast?(t*1400)%H:(stop?0:(t*1400)%H);
  for(let i=-1;i<5;i++){const y=170+i*H+(off);pill(g,54,y,672,H-30,36,'#fff');pill(g,84,y+30,70,70,35,'#CFDBFA');g.fillStyle='#8C96B4';g.fillRect(180,y+50,220,16);
@@ -136,7 +140,7 @@ S.forEach((s,i)=>{const d=document.createElement('div');d.className='sc';let h='
  if(s.layout!=='end')h+=`<div class="tag">${LOGO}<span>Pixevon <em>Productions</em></span></div>`;
  if(s.num)h+=`<div class="ghost">${s.num}</div>`;
  if(s.k)h+=`<div class="k">${s.k}</div>`;
- if(s.layout==='end'){h+=`<div class="en"><div class="eo" style="left:130px;top:520px;width:120px;height:120px"></div><div class="eo" style="right:120px;top:1160px;width:170px;height:170px"></div><div class="eo" style="left:210px;top:1300px;width:80px;height:80px"></div><div class="elg"><img src="logo-mark-navy.png" style="height:230px"></div><div class="enm">Pixevon <span style="font-weight:400;color:#3B4768">Productions</span></div><div class="etg">Where ideas start moving.</div><div class="chips"><span>Animation</span><span>Reels</span><span>Carousels</span></div><div class="cta2"><span class="sh2"></span>Contact us to learn more<svg width="56" height="56" viewBox="0 0 46 46"><circle cx="23" cy="23" r="23" fill="#fff"/><path d="M14 23h18M25 15l8 8-8 8" fill="none" stroke="#0A1A44" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg></div></div>`}
+ if(s.layout==='end'){h+=`<div class="en"><div class="eo" style="left:130px;top:520px;width:120px;height:120px"></div><div class="eo" style="right:120px;top:1160px;width:170px;height:170px"></div><div class="eo" style="left:210px;top:1300px;width:80px;height:80px"></div><div class="elg"><img src="logo-mark-navy.png" style="height:230px"></div><div class="enm">Pixevon <span style="font-weight:400;color:#3B4768">Productions</span></div><div class="etg">Where ideas start moving.</div><div class="chips"><span>Animation</span><span>Documentaries</span><span>Reels</span></div><div class="cta2">Contact us to learn more</div></div>`}
  if(s.head){const words=s.head.split(' ').map(w=>w.startsWith('*')?`<span class="w a">${w.replace('*','').replace('*','')}</span>`:(w.endsWith('*')?`<span class="w a">${w.replace('*','')}</span>`:`<span class="w">${w}</span>`));
   // handle multiword accents
   let acc=false;const parts=s.head.split(' ').map(w=>{let a=acc;if(w.startsWith('*'))a=true;if(w.endsWith('*')||(w.startsWith('*')&&w.endsWith('*')))acc=false;else if(w.startsWith('*'))acc=true;return `<span class="w${a?' a':''}">${w.replace(/\*/g,'')}</span>`});
@@ -172,8 +176,7 @@ window.setT=function(t){
   const nm=el.querySelector('.enm');const pn=E((u-.2)/.4);nm.style.opacity=pn;nm.style.transform=`translateY(${(1-pn)*40}px)`;
   const tg=el.querySelector('.etg');const pt=E((u-.35)/.4);tg.style.opacity=pt;tg.style.transform=`translateY(${(1-pt)*30}px)`;
   el.querySelectorAll('.chips span').forEach((c,j)=>{const pc2=BK((u-.45-j*.1)/.35);c.style.opacity=Math.min(1,Math.max(0,(u-.45-j*.1)/.1));c.style.transform=`translateY(${(1-pc2)*40}px) scale(${.7+.3*pc2})`});
-  const c2=el.querySelector('.cta2');const pc=BK((u-.6)/.45);c2.style.opacity=Math.min(1,Math.max(0,(u-.55)/.12));c2.style.transform=`scale(${(.6+.4*pc)*(1+.03*Math.sin(t*5))})`;
-  el.querySelector('.sh2').style.left=((((t*.6)%1.6)-.3)*110)+'%';
+  const c2=el.querySelector('.cta2');const pc=BK((u-.6)/.45);c2.style.opacity=Math.min(1,Math.max(0,(u-.55)/.12));c2.style.transform=`translateY(${(1-pc)*30}px)`;
   el.querySelectorAll('.eo').forEach((o,j)=>o.style.transform=`translateY(${Math.sin(t*1.6+j*2)*24}px)`)}
  const xv=el.querySelector('.xcv');if(xv){const c=s.xc;const g=xv.getContext('2d');g.clearRect(0,0,920,900);XC[c.n](g,920,900,u);const p=BK((u-.05)/.45);xv.style.transform=`scale(${c.sc*(.6+.4*p)})`;xv.style.opacity=Math.min(1,u/.12)}
  const cta=el.querySelector('.cta');if(cta){const p=BK((u-.3)/.45);cta.style.transform=`translateX(-50%) scale(${.6+.4*p})`;cta.style.opacity=Math.min(1,Math.max(0,(u-.25)/.12))}

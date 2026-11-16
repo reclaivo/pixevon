@@ -16,7 +16,7 @@ Use ONLY the ZapierP connection (the Pixevon one). Never use the main Zapier con
 - Keep the logo and headline lowered (TikTok search bar). Top and bottom stay free for app UI.
 - Ending: voice says only "Contact us to learn more." No mention of comments, DMs or email. The end screen is the logo, tags and button (no narrator on it).
 - NO character, narrator or person figure of any kind. Abyan banned the faceless woman character for good. Visuals are only 3D phones, animated cards, Pulso and the logo.
-- Pulso promo pattern: one reel promotes Pulso, one does not, then repeat, with several other-service reels in between. Pulso = managed service by the studio that works like an AI agent: creates your animated content and posts it. No prices, no mention of Claude, no income guarantees, no fake stats, no fake testimonials.
+- RETIRED (Abyan, 2026-11-16): the Pulso promo pattern. Do not make Pulso reels any more; promote the business and its services instead.
 - Other services to promote: animated explainers, logo/brand animation, motion ads, short social reels, content packages.
 - Never use em dashes anywhere (scripts, captions, messages). Captions: SEO friendly (natural keywords such as animation studio, animated videos, motion graphics, explainer video, social media content), 2 to 4 short sentences, end with "Contact us to learn more.", then at most 5 hashtags (never more than 5).
 - Never reuse a topic already listed in `schedule.json`.
@@ -37,3 +37,13 @@ Use ONLY the ZapierP connection (the Pixevon one). Never use the main Zapier con
 
 ## Variety rule (from Abyan)
 Every reel must be clearly different from all earlier ones AND very relevant to Pixevon's services (animation, explainer videos, logo animation, motion ads, social content, Pulso). Before writing a reel, read schedule.json and list all past hooks, topics, captions and scene graphics. Never repeat a hook, topic angle, caption opening or the same sequence of motion graphics. Vary the format (tip list, myth vs fact, before and after, mistake, question hook, quick how-to, service spotlight), the background images, the graphics used and the voice script wording. Keep a "topic" field per post in schedule.json so the next batch can check for overlap.
+
+
+## Business update (from Abyan, 2026-11-16)
+- Pixevon Productions makes animation AND documentaries (short documentaries: researched, scripted, voiced, edited). Reels must promote the BUSINESS and its services (animation, explainer videos, logo animation, motion ads, documentaries). Do NOT make reels that promote Pulso any more. Mix educational reels with service reels, and include documentary reels regularly.
+- The end screen has NO button: "Contact us to learn more" is plain text (the template already does this). Chips on the end screen: Animation, Documentaries, Reels.
+- The website now says animation and documentaries.
+
+- CORRECTION (Abyan, 2026-11-16): the business model is: Pixevon Productions makes animation, documentaries, videos and social media content, and can automate it completely. Pulso is the fully automated version and does all of this too. So reels promote the WHOLE business. Pulso may be mentioned briefly as the automation option inside a business reel, but is never the main subject of a reel.
+
+- PULSO FREQUENCY RULE (Abyan, 2026-11-16): Pulso is promoted in only 1 reel out of every 12 (about 1 in 12). The other 11 reels promote the rest of the business: animation, explainer videos, logo animation, motion ads, short documentaries and social media content. When planning a batch, count the Pulso reels in schedule.json and only include one if fewer than 1 in the last 12.
