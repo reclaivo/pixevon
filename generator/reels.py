@@ -62,3 +62,10 @@ R['R9']=dict(title='Documentaries',scenes=[
  dict(line='Researched. Scripted. Voiced. Edited.',head='Researched. Scripted. *Voiced.* Edited.',hs=88,phone=dict(ui='timeline',ry0=.45,ry1=.15,**PC)),
  dict(line='Contact us to learn more.',layout='end',pre=.3,post=1.2),
 ])
+
+R['R10']=dict(title='New style demo',scenes=[
+ dict(line='Still no video for your brand?',head='No video for your *brand?*',hs=92,shock=True,chips=[dict(t='NO REACH',x=170,y=820),dict(t='NO LEADS',x=910,y=930),dict(t='NO STORY',x=170,y=1040)],b3d=dict(k='orbit',cfg=dict(title='Your brand',sub='Today',num=0,pct=0,cards=[['Views','0'],['Leads','0'],['Reach','0'],['Shares','0'],['Saves','0']],items=['No video yet','No story told','No new leads'])),pre=.08,post=.15),
+ dict(line='Animation makes people stop.',head='Animation makes people *stop.*',hs=96,b3d=dict(k='bars',cfg=dict(pct=312))),
+ dict(line='We turn your story into motion.',head='We turn your story into *motion.*',hs=92,b3d=dict(k='tiles',cfg={})),
+ dict(line='Contact us to learn more.',layout='end',pre=.3,post=1.2),
+])
