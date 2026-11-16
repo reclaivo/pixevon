@@ -60,10 +60,10 @@ function sceneC(){
   for(let iy=0;iy<N;iy++)for(let ix=0;ix<N;ix++){const geo=new THREE.BoxGeometry(s*.97,s*.97,.34);const uv=geo.attributes.uv;for(let v=16;v<20;v++){uv.setXY(v,(ix+uv.getX(v))/N,(N-1-iy+uv.getY(v))/N)}uv.needsUpdate=true;
    const m=new THREE.Mesh(geo,[side,side,side,side,front,side]);m.castShadow=true;m.receiveShadow=true;
    const tx=(ix-(N-1)/2)*s,ty=((N-1)/2-iy)*s;const d=Math.random;const from=new THREE.Vector3((d()-.5)*14,(d()-.5)*18,d()*3),rot=new THREE.Vector3((d()-.5)*9,(d()-.5)*9,(d()-.5)*9);
-   tiles.push({m,to:new THREE.Vector3(tx,ty,0),from,rot,delay:(ix+iy)*.05+d()*.35});grp.add(m)}
+   tiles.push({m,to:new THREE.Vector3(tx,ty,0),from,rot,delay:(ix+iy)*.025+d()*.2});grp.add(m)}
   const brand=document.getElementById('brand');
-  update=t=>{tiles.forEach(o=>{const k=ez((t-.1-o.delay)/1.5);o.m.position.lerpVectors(o.from,o.to,k);o.m.rotation.set(o.rot.x*(1-k),o.rot.y*(1-k),o.rot.z*(1-k))});
-   const pull=ez((t-2.4)/1.4);grp.rotation.y=Math.sin(t*1.1)*.18*(1-pull*.5);grp.rotation.x=-.06+Math.sin(t*.9)*.05;
+  update=t=>{tiles.forEach(o=>{const k=ez((t-.05-o.delay)/.8);o.m.position.lerpVectors(o.from,o.to,k);o.m.rotation.set(o.rot.x*(1-k),o.rot.y*(1-k),o.rot.z*(1-k))});
+   const pull=ez((t-1.5)/1.4);grp.rotation.y=Math.sin(t*1.1)*.18*(1-pull*.5);grp.rotation.x=-.06+Math.sin(t*.9)*.05;
    cam.position.set(0,.2,19+pull*2);cam.lookAt(0,-.2,0);0};
   READY=true};img.src=(cfg.logo||'logo-mark-navy.png')}
 
