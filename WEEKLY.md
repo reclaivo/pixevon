@@ -62,3 +62,6 @@ Rules for every reel: the FIRST scene must be a strong visual hook (shock and/or
 - Hook chips go in ONE row at y=750 (x 210, 540, 870), never over the visual or the headline. The shockwave ring is centred on the visual (y=1180), max about 900 px wide.
 - bars: default heights (top bar 3.0) so the counting label stays inside the visible band. orbit and tiles cameras are already framed for the band.
 - Before delivering any reel, extract frames near the END of each scene (text fully visible) and confirm no animation overlaps, hides or sits over text. If it does, fix it, do not ship it.
+
+## CAPTION RULE (informative, educational, SEO)
+Every caption: 3 to 5 short sentences. Start with a question or keyword phrase people search (e.g. "Short video hook tips"). Give 2 or 3 concrete, useful tips. Mention what Pixevon Productions offers in one sentence. End with "Contact us to learn more." then max 5 hashtags on a new line. No em dashes. Add a topic field in schedule.json.

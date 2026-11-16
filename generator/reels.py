@@ -64,8 +64,39 @@ R['R9']=dict(title='Documentaries',scenes=[
 ])
 
 R['R10']=dict(title='New style demo',scenes=[
- dict(line='Still no video for your brand?',head='No video for your *brand?*',hs=92,shock=True,chips=[dict(t='NO REACH',x=170,y=820),dict(t='NO LEADS',x=910,y=930),dict(t='NO STORY',x=170,y=1040)],b3d=dict(k='orbit',cfg=dict(title='Your brand',sub='Today',num=0,pct=0,cards=[['Views','0'],['Leads','0'],['Reach','0'],['Shares','0'],['Saves','0']],items=['No video yet','No story told','No new leads'])),pre=.08,post=.15),
+ dict(line='Still no video for your brand?',head='No video for your *brand?*',hs=92,shock=True,chips=[dict(t='NO REACH',x=210,y=750),dict(t='NO LEADS',x=540,y=750),dict(t='NO STORY',x=870,y=750)],b3d=dict(k='orbit',cfg=dict(title='Your brand',sub='Today',num=0,pct=0,cards=[['Views','0'],['Leads','0'],['Reach','0'],['Shares','0'],['Saves','0']],items=['No video yet','No story told','No new leads'])),pre=.08,post=.15),
  dict(line='Animation makes people stop.',head='Animation makes people *stop.*',hs=96,b3d=dict(k='bars',cfg=dict(pct=312))),
- dict(line='We turn your story into motion.',head='We turn your story into *motion.*',hs=92,b3d=dict(k='tiles',cfg={})),
+ dict(line='We turn your story into motion.',head='We turn your story into *motion.*',hs=84,b3d=dict(k='tiles',cfg={})),
+ dict(line='Contact us to learn more.',layout='end',pre=.3,post=1.2),
+])
+
+R['R11']=dict(title='Social content done for you',scenes=[
+ dict(line='Posting daily is exhausting.',head='Posting daily is *exhausting.*',hs=92,shock=True,chips=[dict(t='NO TIME',x=210,y=750),dict(t='NO IDEAS',x=540,y=750),dict(t='NO PLAN',x=870,y=750)],b3d=dict(k='orbit',cfg=dict(title='Your content',sub='This week',num=0,pct=0,cards=[['Posts','0'],['Reach','0'],['Saves','0'],['Leads','0'],['Shares','0']],items=['No time','No ideas','No plan'])),pre=.08,post=.15),
+ dict(line='We make your content for you.',head='We make your *content* for you.',hs=88,b3d=dict(k='bars',cfg=dict(pct=240))),
+ dict(line='Planned. Animated. Automated.',head='Planned. Animated. *Automated.*',hs=96,phone=dict(ui='calendar',ry0=-.45,ry1=-.12,**PC)),
+ dict(line='Contact us to learn more.',layout='end',pre=.3,post=1.2),
+])
+R['R12']=dict(title='Documentary structure',scenes=[
+ dict(line='Every documentary needs three things.',head='Every documentary needs *three* things.',hs=88,shock=True,chips=[dict(t='HOOK',x=210,y=750),dict(t='STORY',x=540,y=750),dict(t='PROOF',x=870,y=750)],b3d=dict(k='orbit',cfg=dict(title='Documentary',sub='Structure',num=3,pct=100,cards=[['Hook','1'],['Story','2'],['Proof','3'],['Voice','4'],['Edit','5']],items=['A strong hook','A real story','Clear proof'])),pre=.08,post=.15),
+ dict(line='A hook. A story. And proof.',head='A hook. A story. And *proof.*',hs=96,phone=dict(ui='timeline',ry0=.45,ry1=.15,**PC)),
+ dict(line='We make short documentaries.',head='We make short *documentaries.*',hs=92,b3d=dict(k='tiles',cfg={})),
+ dict(line='Contact us to learn more.',layout='end',pre=.3,post=1.2),
+])
+R['R13']=dict(title='Captions on mute',scenes=[
+ dict(line='Most people watch on mute.',head='Most people watch on *mute.*',hs=96,shock=True,chips=[dict(t='NO SOUND',x=210,y=750),dict(t='NO CAPTIONS',x=540,y=750),dict(t='NO REACH',x=870,y=750)],phone=dict(ui='feed',mode='stop',ry0=.4,ry1=.1,**PC),pre=.08,post=.15),
+ dict(line='So add captions and motion.',head='So add captions and *motion.*',hs=92,b3d=dict(k='bars',cfg=dict(pct=180))),
+ dict(line='We design videos that work without sound.',head='We design videos that work without *sound.*',hs=80,phone=dict(ui='player',ry0=-.45,ry1=-.12,**PC)),
+ dict(line='Contact us to learn more.',layout='end',pre=.3,post=1.2),
+])
+R['R14']=dict(title='Storyboard first',scenes=[
+ dict(line='Skip the storyboard and pay twice.',head='Skip the storyboard, pay *twice.*',hs=92,shock=True,chips=[dict(t='REWORK',x=210,y=750),dict(t='DELAYS',x=540,y=750),dict(t='WASTE',x=870,y=750)],phone=dict(ui='clutter',ry0=.4,ry1=.1,**PC),pre=.08,post=.15),
+ dict(line='Plan every scene first.',head='Plan every *scene* first.',hs=96,b3d=dict(k='orbit',cfg=dict(title='Storyboard',sub='Plan',num=5,pct=100,cards=[['Scene 1','Hook'],['Scene 2','Story'],['Scene 3','Proof'],['Scene 4','Offer'],['Scene 5','Next step']],items=['Write the script','Sketch each scene','Approve the plan']))),
+ dict(line='Then animation goes fast.',head='Then animation goes *fast.*',hs=100,phone=dict(ui='timeline',ry0=-.45,ry1=-.12,**PC)),
+ dict(line='Contact us to learn more.',layout='end',pre=.3,post=1.2),
+])
+R['R15']=dict(title='Founder story documentary',scenes=[
+ dict(line='Your story is your best content.',head='Your story is your best *content.*',hs=88,shock=True,chips=[dict(t='FOUNDERS',x=210,y=750),dict(t='BRANDS',x=540,y=750),dict(t='STORIES',x=870,y=750)],b3d=dict(k='tiles',cfg={}),pre=.08,post=.15),
+ dict(line='We turn it into a short documentary.',head='We turn it into a short *documentary.*',hs=84,phone=dict(ui='player2',ry0=-.45,ry1=-.12,**PC)),
+ dict(line='We handle every step.',head='We handle every *step.*',hs=100,b3d=dict(k='orbit',cfg=dict(title='Your film',sub='Progress',num=100,pct=100,cards=[['Research','Done'],['Script','Done'],['Voice','Done'],['Edit','Done'],['Export','Done']],items=['Research done','Script done','Edit done']))),
  dict(line='Contact us to learn more.',layout='end',pre=.3,post=1.2),
 ])
