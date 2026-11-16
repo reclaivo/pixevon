@@ -37,64 +37,65 @@
       "publer_post_id": null
     },
     {
-      "file": "2026-11-17-R3-three-mistakes.mp4",
-      "url": "https://raw.githubusercontent.com/reclaivo/pixevon/main/videos/2026-11-17-R3-three-mistakes.mp4",
+      "file": "2026-11-17-R3-three-mistakes-v2.mp4",
+      "url": "https://raw.githubusercontent.com/reclaivo/pixevon/main/videos/2026-11-17-R3-three-mistakes-v2.mp4",
       "reel": "R3",
       "type": "Educational",
       "scheduled_at": "2026-11-17T12:30:00Z",
       "caption": "3 mistakes that make your animation look cheap: too many ideas, text nobody can read and no next step. Fix these to make animated videos that look professional. Contact us to learn more.\n\n#AnimatedVideos #MotionGraphics #VideoProduction #BrandVideo #AnimationTips",
-      "status": "scheduled",
+      "status": "made",
       "publer_post_id": null
     },
     {
-      "file": "2026-11-17-R6-explainer-videos.mp4",
-      "url": "https://raw.githubusercontent.com/reclaivo/pixevon/main/videos/2026-11-17-R6-explainer-videos.mp4",
+      "file": "2026-11-17-R6-explainer-videos-v2.mp4",
+      "url": "https://raw.githubusercontent.com/reclaivo/pixevon/main/videos/2026-11-17-R6-explainer-videos-v2.mp4",
       "reel": "R6",
       "type": "Service: explainer videos",
       "scheduled_at": "2026-11-17T18:30:00Z",
       "caption": "Nobody reads long product pages, but people watch a 30 second explainer video. Problem, solution, result: we turn your offer into a clear animated explainer. Contact us to learn more.\n\n#ExplainerVideo #AnimatedExplainer #ProductVideo #VideoMarketing #AnimationStudio",
-      "status": "scheduled",
+      "status": "made",
       "publer_post_id": null
     },
     {
-      "file": "2026-11-18-R5-three-seconds.mp4",
-      "url": "https://raw.githubusercontent.com/reclaivo/pixevon/main/videos/2026-11-18-R5-three-seconds.mp4",
+      "file": "2026-11-18-R5-three-seconds-v2.mp4",
+      "url": "https://raw.githubusercontent.com/reclaivo/pixevon/main/videos/2026-11-18-R5-three-seconds-v2.mp4",
       "reel": "R5",
       "type": "Educational",
       "scheduled_at": "2026-11-18T12:30:00Z",
       "caption": "You have 3 seconds to win a viewer. A bold first line, movement from frame one and a reason to stay: the 3 rules for short video hooks that hold attention. Contact us to learn more.\n\n#ShortFormVideo #VideoHooks #ReelsTips #SocialMediaMarketing #MotionGraphics",
-      "status": "scheduled",
+      "status": "made",
       "publer_post_id": null
     },
     {
-      "file": "2026-11-18-R7-logo-animation.mp4",
-      "url": "https://raw.githubusercontent.com/reclaivo/pixevon/main/videos/2026-11-18-R7-logo-animation.mp4",
+      "file": "2026-11-18-R7-logo-animation-v2.mp4",
+      "url": "https://raw.githubusercontent.com/reclaivo/pixevon/main/videos/2026-11-18-R7-logo-animation-v2.mp4",
       "reel": "R7",
       "type": "Service: logo animation",
       "scheduled_at": "2026-11-18T18:30:00Z",
       "caption": "Your logo is a still image. Make it move with an animated logo intro of about 5 seconds on every video and build instant brand recognition. Contact us to learn more.\n\n#LogoAnimation #BrandIdentity #MotionGraphics #AnimationStudio #Branding",
-      "status": "scheduled",
+      "status": "made",
       "publer_post_id": null
     },
     {
-      "file": "2026-11-19-R8-motion-ads.mp4",
-      "url": "https://raw.githubusercontent.com/reclaivo/pixevon/main/videos/2026-11-19-R8-motion-ads.mp4",
+      "file": "2026-11-19-R8-motion-ads-v2.mp4",
+      "url": "https://raw.githubusercontent.com/reclaivo/pixevon/main/videos/2026-11-19-R8-motion-ads-v2.mp4",
       "reel": "R8",
       "type": "Service: motion ads",
       "scheduled_at": "2026-11-19T12:30:00Z",
       "caption": "Static ads get scrolled past. Motion stops the scroll. We design animated social media ads and motion graphics that grab attention and move people to act. Contact us to learn more.\n\n#MotionAds #VideoAds #SocialMediaAds #MotionGraphics #DigitalMarketing",
-      "status": "scheduled",
+      "status": "made",
       "publer_post_id": null
     },
     {
-      "file": "2026-11-19-R9-pulso-skips.mp4",
-      "url": "https://raw.githubusercontent.com/reclaivo/pixevon/main/videos/2026-11-19-R9-pulso-skips.mp4",
+      "file": "2026-11-19-R9-documentaries.mp4",
+      "url": "https://raw.githubusercontent.com/reclaivo/pixevon/main/videos/2026-11-19-R9-documentaries.mp4",
       "reel": "R9",
-      "type": "Pulso",
+      "type": "Service: documentaries",
       "scheduled_at": "2026-11-19T18:30:00Z",
-      "caption": "Your competitors posted today. Did you? Pulso, our managed AI content service, keeps your animated social media content going every single day. Contact us to learn more.\n\n#SocialMediaMarketing #ContentCreation #AIContent #AnimatedContent #BrandGrowth",
-      "status": "scheduled",
-      "publer_post_id": null
+      "caption": "Some stories need more than a caption. Pixevon Productions makes short documentaries: we research, script, voice and edit the whole film around your story. Contact us to learn more.\n\n#Documentary #ShortDocumentary #VideoProduction #Storytelling #BrandFilm",
+      "status": "made",
+      "publer_post_id": null,
+      "topic": "documentaries"
     }
   ]
 }
