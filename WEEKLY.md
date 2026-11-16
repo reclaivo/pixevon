@@ -55,3 +55,10 @@ Reels must look like the Reclaivo videos Abyan loved: bold, busy in a good way, 
 - `chips=[dict(t='TEXT',x=..,y=..)]` pops 3D-looking pills around the visual (use on the hook scene, keep them left/right of the main visual, not over text).
 - Existing: 3D phone UIs, XC animated cards, rotating tinted backgrounds, sound effects.
 Rules for every reel: the FIRST scene must be a strong visual hook (shock and/or chips plus a b3d or phone scene), every scene has a 3D or advanced motion graphic, at least 2 of the 3 b3d kinds across a batch, no characters, light theme, navy palette. Keep render cost low: one reel renders in about 5 to 10 minutes, so render in batches.
+
+## LAYOUT CONTRACT for 3D/motion scenes (Abyan, 2026-11-16: "animation must never get into the text, do not let this happen again")
+- Headline zone: y from 380 to about 740. Max 2 lines, hs 96 or smaller (use hs 84 for long lines). Nothing may cross it.
+- The b3d canvas is masked by the template so 3D objects are hidden above y=800 and fade in below it. Never remove this mask. Keep the main visual between y=800 and y=1650 (bottom 250 px stay free for the app UI).
+- Hook chips go in ONE row at y=750 (x 210, 540, 870), never over the visual or the headline. The shockwave ring is centred on the visual (y=1180), max about 900 px wide.
+- bars: default heights (top bar 3.0) so the counting label stays inside the visible band. orbit and tiles cameras are already framed for the band.
+- Before delivering any reel, extract frames near the END of each scene (text fully visible) and confirm no animation overlaps, hides or sits over text. If it does, fix it, do not ship it.

@@ -36,20 +36,20 @@ function sceneA(){
  update=t=>{drawScr(t);const o=Math.sin(t*.9)*.45;grp.rotation.y=o*.6;grp.rotation.x=Math.sin(t*.7)*.05;grp.position.y=Math.sin(t*1.3)*.08;
   cards.forEach(c=>{const a=c.a0+t*.8,x=Math.cos(a)*c.R,z=Math.sin(a)*1.7;c.gg.position.set(x,c.y+Math.sin(t*1.6+c.a0)*.12,z);c.gg.rotation.y=-Math.cos(a)*.5;c.gg.scale.setScalar(.62+.16*(z+1.7)/3.4)});
   pts.position.y=-t*.12%1;pts.rotation.y=t*.05;
-  cam.position.set(Math.sin(t*.5)*1.2,.4,14-ez(t/3.5)*2.2);cam.lookAt(0,0,0)};
+  cam.position.set(Math.sin(t*.5)*1.0,.3,17.5-ez(t/3.5)*2.2);cam.lookAt(0,0,0)};
  READY=true}
 // ---------- Scene B: 3D bar growth ----------
 function sceneB(){
  const floor=new THREE.Mesh(new THREE.PlaneGeometry(40,40),new THREE.ShadowMaterial({opacity:.22}));floor.rotation.x=-Math.PI/2;floor.position.y=-1.6;floor.receiveShadow=true;sc.add(floor);
- const hs=cfg.heights||[1.3,2.1,1.7,2.9,4.1],bars=[];const grp=new THREE.Group();sc.add(grp);
+ const hs=cfg.heights||[1.0,1.6,1.3,2.2,3.0],bars=[];const grp=new THREE.Group();sc.add(grp);
  hs.forEach((h,i)=>{const col=new THREE.Color().lerpColors(new THREE.Color(0x9db8f2),new THREE.Color(i==4?0x2f6bff:0x0b1f4b),i/4);
   const m=new THREE.Mesh(new THREE.BoxGeometry(.78,1,.78),new THREE.MeshStandardMaterial({color:i==4?0x2f6bff:col,roughness:.3,metalness:.2}));m.castShadow=true;m.receiveShadow=true;m.position.x=(i-2)*1.15;grp.add(m);bars.push({m,h,i})});
  const lab=cvTex(512,256);const sp=new THREE.Sprite(new THREE.SpriteMaterial({map:lab.t,transparent:true,toneMapped:false}));sp.scale.set(2.4,1.2,1);grp.add(sp);
  const ln=[];const lineMat=new THREE.LineBasicMaterial({color:0x0b1f4b});
  update=t=>{bars.forEach(b=>{const k=Math.max(.001,eb((t-.25-b.i*.22)/.9));const h=b.h*k;b.m.scale.y=h;b.m.position.y=-1.6+h/2});
-  const top=bars[4],ht=top.h*Math.max(.001,eb((t-.25-4*.22)/.9));sp.position.set(top.m.position.x-.9,-1.6+ht+.85,0);
+  const top=bars[4],ht=top.h*Math.max(.001,eb((t-.25-4*.22)/.9));sp.position.set(top.m.position.x-.9,-1.6+ht+.8,0);
   const g=lab.g;g.clearRect(0,0,512,256);g.fillStyle='#fff';rrect(g,16,40,480,170,45);g.fill();g.fillStyle='#2f6bff';g.font='900 100px Helvetica';g.textAlign='center';g.fillText((cfg.prefix===undefined?'+':cfg.prefix)+Math.round((cfg.pct||312)*ez((t-1.1)/1.8))+(cfg.suffix===undefined?'%':cfg.suffix),256,155);g.textAlign='left';lab.t.needsUpdate=true;sp.material.opacity=ez((t-1)/.4);
-  const a=-.5+t*.32;cam.position.set(Math.sin(a)*20,2.6+Math.sin(t*.8)*.3,Math.cos(a)*20);cam.lookAt(0,.3,0);grp.position.y=0}
+  const a=-.5+t*.32;cam.position.set(Math.sin(a)*22,2.6+Math.sin(t*.8)*.3,Math.cos(a)*22);cam.lookAt(0,1.1,0);grp.position.y=0}
  READY=true}
 // ---------- Scene C: tiles build the logo ----------
 function sceneC(){
@@ -64,7 +64,7 @@ function sceneC(){
   const brand=document.getElementById('brand');
   update=t=>{tiles.forEach(o=>{const k=ez((t-.1-o.delay)/1.5);o.m.position.lerpVectors(o.from,o.to,k);o.m.rotation.set(o.rot.x*(1-k),o.rot.y*(1-k),o.rot.z*(1-k))});
    const pull=ez((t-2.4)/1.4);grp.rotation.y=Math.sin(t*1.1)*.18*(1-pull*.5);grp.rotation.x=-.06+Math.sin(t*.9)*.05;
-   cam.position.set(0,.2,15.5+pull*3);cam.lookAt(0,-.2,0);0};
+   cam.position.set(0,.2,19+pull*2);cam.lookAt(0,-.2,0);0};
   READY=true};img.src=(cfg.logo||'logo-mark-navy.png')}
 
 ({orbit:sceneA,A:sceneA,bars:sceneB,B:sceneB,tiles:sceneC,C:sceneC})[S]();
