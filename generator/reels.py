@@ -140,3 +140,36 @@ R['K13']=dict(title='K13',scenes=[{'line': 'Most people watch on mute.', 'key': 
 R['K14']=dict(title='K14',scenes=[{'line': 'Skip the storyboard, pay twice.', 'key': ['twice.'], 'vis': 'wall', 'pre': 0.05, 'post': 0.12, 'cont': False, 'notm': True}, {'line': 'Plan every scene first.', 'key': ['first.'], 'vis': 'grid', 'pre': 0.05, 'post': 0.12, 'cont': True, 'cnt': [5, ' scenes']}, {'line': 'Then animation goes fast.', 'key': ['fast.'], 'vis': 'motion', 'pre': 0.05, 'post': 0.12, 'cont': True}, {'line': 'Contact us to learn more.', 'layout': 'end', 'pre': 0.3, 'post': 1.2, 'cont': True, 'vis': 'end'}])
 
 R['K15']=dict(title='K15',scenes=[{'line': 'Your story is your best content.', 'key': ['content.'], 'vis': 'motion', 'pre': 0.05, 'post': 0.12, 'cont': False}, {'line': 'Research. Script. Edit.', 'key': ['Edit.'], 'vis': 'grid', 'pre': 0.05, 'post': 0.12, 'cont': True, 'cnt': [3, ' steps']}, {'line': 'We handle every step.', 'key': ['step.'], 'vis': 'motion', 'pre': 0.05, 'post': 0.12, 'cont': True}, {'line': 'Contact us to learn more.', 'layout': 'end', 'pre': 0.3, 'post': 1.2, 'cont': True, 'vis': 'end'}])
+
+# ---- glass icons (G) and software walkthrough (W) samples ----
+def _g(line,mode,icons,key=(),**k): return dict(line=line,vis='glass',mode=mode,icons=icons,key=list(key),pre=.05,post=k.pop('post',.2),**k)
+def _a(line,ui,key=(),**k): return dict(line=line,vis='app',ui=ui,key=list(key),pre=.05,post=k.pop('post',.2),**k)
+END=dict(line='Contact us to learn more.',layout='end',vis='end',pre=.3,post=1.2)
+R['G1']=dict(title='One studio six services',scenes=[
+ _g('One studio. Six ways to tell your story.','orbit',['play','reel','bulb','layers','bolt','heart'],['story.'],sfx=[('pop',.3),('pop',.5),('pop',.7),('pop',.9)]),
+ _g('Animation. Documentaries. Explainers.','focus',['play','reel','bulb'],[],post=.3,sfx=[('pop',.4),('pop',1.1),('pop',1.8)],cont=True),
+ _g('Logos. Motion ads. Social content.','focus',['layers','bolt','heart'],[],post=.3,sfx=[('pop',.4),('pop',1.0),('pop',1.7)]),
+ END])
+R['G2']=dict(title='Five tools one studio',scenes=[
+ _g('Five tools. Three freelancers. One mess.','chaos',['tool','mic','doc','play','chart'],['mess.'],post=.3,sfx=[('tick',.3),('tick',.8),('tick',1.4)]),
+ _g('Or one studio that does it all.','merge',['tool','mic','doc','play','chart'],['one'],post=.3,cont=True,sfx=[('shimmer',.8)]),
+ _g('Script. Voice. Animation.','focus',['doc','mic','play'],[],post=.3,sfx=[('pop',.4),('pop',1.0),('pop',1.6)]),
+ END])
+R['G3']=dict(title='Four steps',scenes=[
+ _g('Four steps. Zero stress.','line',['bulb','doc','play','check'],['Zero'],labels=['Idea','Script','Animation','Delivery'],post=.7,sfx=[('pop',.3),('pop',.7),('pop',1.1),('pop',1.5)]),
+ _g('Idea. Script. Animation. Delivery.','orbit',['bulb','doc','play','check'],[],labels=['Idea','Script','Animation','Delivery'],post=.3,cont=True),
+ _g('We handle every one.','line',['bulb','doc','play','check'],['every'],labels=['Idea','Script','Animation','Delivery'],post=.6,sfx=[('pop',.3),('pop',.6),('pop',.9),('pop',1.2)]),
+ END])
+R['W1']=dict(title='Brief to video',scenes=[
+ _a('Send us a short brief.','brief',['brief.'],title='New project',type='Product launch, 30 seconds',post=1.1,sfx=[('tick',.4),('tick',.55),('tick',.7),('tick',.85),('thud',1.9)]),
+ _a('We script, animate and voice it.','timeline',['animate'],title='Studio',post=.5,cont=True,sfx=[('pop',.3),('pop',.7),('pop',1.1),('shimmer',1.9)]),
+ _a('You get the finished video.','delivered',['finished'],title='Delivery',post=.5,sfx=[('pop',.5),('pop',.8),('pop',1.1),('shimmer',1.5)]),
+ END])
+R['W2']=dict(title='Plan a month',scenes=[
+ _a('Plan a month in one sitting.','calendar',['month'],title='Content plan',post=.9,sfx=[('tick',.3),('tick',.6),('tick',.9),('tick',1.2),('tick',1.5)]),
+ _a('Everything ready before you need it.','delivered',['ready'],title='Delivery',post=.5,cont=True,sfx=[('pop',.5),('pop',.8),('pop',1.1),('shimmer',1.5)]),
+ END])
+R['W3']=dict(title='Fast feedback',scenes=[
+ _a('Feedback should take seconds, not days.','feedback',['seconds,'],title='Review',post=.6,sfx=[('thud',.9),('tick',1.4),('tick',1.6),('shimmer',2.3)]),
+ _a('We update it fast.','delivered',['fast.'],title='Delivery',post=.9,cont=True,sfx=[('pop',.5),('pop',.8),('pop',1.1),('shimmer',1.5)]),
+ END])

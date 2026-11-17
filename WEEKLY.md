@@ -74,3 +74,9 @@ The very FIRST FRAME (frame 0, not the first second) of every reel must be the t
 
 ## LIGHT KINETIC STYLE (Abyan, 17 Nov): all new reels
 Use generator/kinetic.py (light theme, one of the 10 background images with a light tint, word-by-word captions with glowing key word, hard cuts with punch-ins, wall/motion/grid scenes, plain-text end screen). Dark versions are NOT used.
+
+## OCCASIONAL STYLES: GLASS ICONS AND SOFTWARE WALKTHROUGH (17 Nov)
+Abyan approved two extra reel styles for occasional use (about 1 reel in 4, never back to back), both in the LIGHT theme only (no dark or mid blue variants), navy and blue palette only (no orange, pink, green), no characters:
+- Glass icons (vis "glass", modes orbit, focus, line, chaos, merge): 3D glass tiles for services or steps. Samples G1 to G3 in generator/reels.py.
+- Software walkthrough (vis "app", ui brief, timeline, calendar, delivered, feedback): mock app window with cursor and clicks. Samples W1 to W3.
+Build with generator/gw_base.html and generator/gw_build.py (same gen.py voice, music.py, render.py pipeline as the kinetic reels). Same rules: frame 0 is the finished hook, safe space left empty at top and bottom (logo tag at y 310, captions at y 1190), max 15 s, long captions. Data City style: only when a reel is genuinely about real numbers, never invented ones.
