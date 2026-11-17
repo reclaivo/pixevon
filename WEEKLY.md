@@ -68,3 +68,9 @@ Every caption is LONG (500 to 700 characters), never a one-liner. Start with a q
 
 ## PUBLER SAFETY RULE
 Create posts ONE AT A TIME (never in parallel); parallel creates silently dropped posts before. A response of payload {} or no failures key means failure. Free plan max 10 scheduled per account, so schedule at most 10 and leave the rest "made" for the retry task. Always use the caption_long text from schedule.json.
+
+## THUMBNAIL RULE (Abyan, 17 Nov)
+The very FIRST FRAME (frame 0, not the first second) of every reel must be the thumbnail: the full hook headline fully visible and the main visual in place, with no empty or half-built state. In the kinetic template frame 0 is forced to the finished composition, then words animate from frame 1.
+
+## LIGHT KINETIC STYLE (Abyan, 17 Nov): all new reels
+Use generator/kinetic.py (light theme, one of the 10 background images with a light tint, word-by-word captions with glowing key word, hard cuts with punch-ins, wall/motion/grid scenes, plain-text end screen). Dark versions are NOT used.

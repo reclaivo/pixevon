@@ -100,3 +100,43 @@ R['R15']=dict(title='Founder story documentary',scenes=[
  dict(line='We handle every step.',head='We handle every *step.*',hs=100,b3d=dict(k='orbit',cfg=dict(title='Your film',sub='Progress',num=100,pct=100,cards=[['Research','Done'],['Script','Done'],['Voice','Done'],['Edit','Done'],['Export','Done']],items=['Research done','Script done','Edit done']))),
  dict(line='Contact us to learn more.',layout='end',pre=.3,post=1.2),
 ])
+
+R['K1']=dict(title='Kinetic test',scenes=[
+ dict(line='A founder opens your site at 1 AM.',key=['1','AM.'],pre=.05,post=.12),
+ dict(line='Wall of text. Three seconds. Gone.',key=['Gone.'],cont=True,pre=.05,post=.12),
+ dict(line='Now picture twenty seconds of motion.',key=['motion.'],cont=True,pre=.05,post=.12),
+ dict(line='One clear idea. Understood instantly.',key=['instantly.'],cont=True,pre=.05,post=.12),
+ dict(line='Contact us to learn more.',layout='end',pre=.3,post=1.2,cont=True),
+])
+
+R['K2']=dict(title='Kinetic test 2',scenes=[
+ dict(line='Buyers decide in three seconds.',key=['three'],pre=.05,post=.12),
+ dict(line='So show it in motion instead.',key=['motion'],cont=True,pre=.05,post=.12),
+ dict(line='One idea per scene. Twenty seconds.',key=['Twenty'],cont=True,pre=.05,post=.12),
+ dict(line='Clear. Memorable. Easy to share.',key=['share.'],cont=True,pre=.05,post=.12),
+ dict(line='Contact us to learn more.',layout='end',pre=.3,post=1.2,cont=True),
+])
+
+R['K3']=dict(title='K3',scenes=[{'line': 'Three mistakes make animation look cheap.', 'key': ['cheap.'], 'vis': 'wall', 'pre': 0.05, 'post': 0.12, 'cont': False, 'notm': True}, {'line': 'Fix them with one idea per video.', 'key': ['idea'], 'vis': 'motion', 'pre': 0.05, 'post': 0.12, 'cont': True}, {'line': 'Large text. One clear next step.', 'key': ['step.'], 'vis': 'grid', 'pre': 0.05, 'post': 0.12, 'cont': True, 'cnt': [1, ' action']}, {'line': 'Contact us to learn more.', 'layout': 'end', 'pre': 0.3, 'post': 1.2, 'cont': True, 'vis': 'end'}])
+
+R['K6']=dict(title='K6',scenes=[{'line': 'Long product pages lose buyers.', 'key': ['lose'], 'vis': 'wall', 'pre': 0.05, 'post': 0.12, 'cont': False, 'notm': True}, {'line': 'Show problem, solution, result.', 'key': ['result.'], 'vis': 'motion', 'pre': 0.05, 'post': 0.12, 'cont': True}, {'line': 'Explain it in thirty seconds.', 'key': ['thirty'], 'vis': 'grid', 'pre': 0.05, 'post': 0.12, 'cont': True, 'cnt': [30, 's']}, {'line': 'Contact us to learn more.', 'layout': 'end', 'pre': 0.3, 'post': 1.2, 'cont': True, 'vis': 'end'}])
+
+R['K5']=dict(title='K5',scenes=[{'line': 'You have three seconds.', 'key': ['three'], 'vis': 'wall', 'pre': 0.05, 'post': 0.12, 'cont': False}, {'line': 'Bold first line. Movement from frame one.', 'key': ['movement'], 'vis': 'motion', 'pre': 0.05, 'post': 0.12, 'cont': True}, {'line': 'Three rules hold attention.', 'key': ['attention.'], 'vis': 'grid', 'pre': 0.05, 'post': 0.12, 'cont': True, 'cnt': [3, ' rules']}, {'line': 'Contact us to learn more.', 'layout': 'end', 'pre': 0.3, 'post': 1.2, 'cont': True, 'vis': 'end'}])
+
+R['K7']=dict(title='K7',scenes=[{'line': 'Your logo is a still image.', 'key': ['still'], 'vis': 'motion', 'pre': 0.05, 'post': 0.12, 'cont': False}, {'line': 'Make it move for five seconds.', 'key': ['move'], 'vis': 'grid', 'pre': 0.05, 'post': 0.12, 'cont': True, 'cnt': [5, 's']}, {'line': 'Instant brand recognition.', 'key': ['recognition.'], 'vis': 'motion', 'pre': 0.05, 'post': 0.12, 'cont': True}, {'line': 'Contact us to learn more.', 'layout': 'end', 'pre': 0.3, 'post': 1.2, 'cont': True, 'vis': 'end'}])
+
+R['K8']=dict(title='K8',scenes=[{'line': 'Static ads get scrolled past.', 'key': ['past.'], 'vis': 'wall', 'pre': 0.05, 'post': 0.12, 'cont': False, 'notm': True}, {'line': 'Motion stops the scroll.', 'key': ['scroll.'], 'vis': 'motion', 'pre': 0.05, 'post': 0.12, 'cont': True}, {'line': 'Lead with the benefit. One action.', 'key': ['action.'], 'vis': 'grid', 'pre': 0.05, 'post': 0.12, 'cont': True, 'cnt': [1, ' action']}, {'line': 'Contact us to learn more.', 'layout': 'end', 'pre': 0.3, 'post': 1.2, 'cont': True, 'vis': 'end'}])
+
+R['K9']=dict(title='K9',scenes=[{'line': 'Some stories need more than a caption.', 'key': ['more'], 'vis': 'motion', 'pre': 0.05, 'post': 0.12, 'cont': False}, {'line': 'Hook. Story. Proof.', 'key': ['Proof.'], 'vis': 'grid', 'pre': 0.05, 'post': 0.12, 'cont': True, 'cnt': [3, ' parts']}, {'line': 'We make short documentaries.', 'key': ['documentaries.'], 'vis': 'motion', 'pre': 0.05, 'post': 0.12, 'cont': True}, {'line': 'Contact us to learn more.', 'layout': 'end', 'pre': 0.3, 'post': 1.2, 'cont': True, 'vis': 'end'}])
+
+R['K10']=dict(title='K10',scenes=[{'line': 'No video for your brand?', 'key': ['video'], 'vis': 'wall', 'pre': 0.05, 'post': 0.12, 'cont': False, 'notm': True}, {'line': 'Animation makes people stop.', 'key': ['stop.'], 'vis': 'motion', 'pre': 0.05, 'post': 0.12, 'cont': True}, {'line': 'Your story in twenty seconds.', 'key': ['twenty'], 'vis': 'grid', 'pre': 0.05, 'post': 0.12, 'cont': True, 'cnt': [20, 's']}, {'line': 'Contact us to learn more.', 'layout': 'end', 'pre': 0.3, 'post': 1.2, 'cont': True, 'vis': 'end'}])
+
+R['K11']=dict(title='K11',scenes=[{'line': 'Posting daily is exhausting.', 'key': ['exhausting.'], 'vis': 'wall', 'pre': 0.05, 'post': 0.12, 'cont': False, 'notm': True}, {'line': 'Plan the week once.', 'key': ['once.'], 'vis': 'grid', 'pre': 0.05, 'post': 0.12, 'cont': True, 'cnt': [7, ' days']}, {'line': 'We make it. Animated. Automated.', 'key': ['Automated.'], 'vis': 'motion', 'pre': 0.05, 'post': 0.12, 'cont': True}, {'line': 'Contact us to learn more.', 'layout': 'end', 'pre': 0.3, 'post': 1.2, 'cont': True, 'vis': 'end'}])
+
+R['K12']=dict(title='K12',scenes=[{'line': 'Every documentary needs three things.', 'key': ['three'], 'vis': 'motion', 'pre': 0.05, 'post': 0.12, 'cont': False}, {'line': 'A hook. A story. And proof.', 'key': ['proof.'], 'vis': 'grid', 'pre': 0.05, 'post': 0.12, 'cont': True, 'cnt': [3, ' parts']}, {'line': 'We make short documentaries.', 'key': ['documentaries.'], 'vis': 'motion', 'pre': 0.05, 'post': 0.12, 'cont': True}, {'line': 'Contact us to learn more.', 'layout': 'end', 'pre': 0.3, 'post': 1.2, 'cont': True, 'vis': 'end'}])
+
+R['K13']=dict(title='K13',scenes=[{'line': 'Most people watch on mute.', 'key': ['mute.'], 'vis': 'wall', 'pre': 0.05, 'post': 0.12, 'cont': False, 'notm': True}, {'line': 'Add captions. Add motion.', 'key': ['motion.'], 'vis': 'motion', 'pre': 0.05, 'post': 0.12, 'cont': True}, {'line': 'Videos that work without sound.', 'key': ['sound.'], 'vis': 'grid', 'pre': 0.05, 'post': 0.12, 'cont': True, 'cnt': [0, ' sound']}, {'line': 'Contact us to learn more.', 'layout': 'end', 'pre': 0.3, 'post': 1.2, 'cont': True, 'vis': 'end'}])
+
+R['K14']=dict(title='K14',scenes=[{'line': 'Skip the storyboard, pay twice.', 'key': ['twice.'], 'vis': 'wall', 'pre': 0.05, 'post': 0.12, 'cont': False, 'notm': True}, {'line': 'Plan every scene first.', 'key': ['first.'], 'vis': 'grid', 'pre': 0.05, 'post': 0.12, 'cont': True, 'cnt': [5, ' scenes']}, {'line': 'Then animation goes fast.', 'key': ['fast.'], 'vis': 'motion', 'pre': 0.05, 'post': 0.12, 'cont': True}, {'line': 'Contact us to learn more.', 'layout': 'end', 'pre': 0.3, 'post': 1.2, 'cont': True, 'vis': 'end'}])
+
+R['K15']=dict(title='K15',scenes=[{'line': 'Your story is your best content.', 'key': ['content.'], 'vis': 'motion', 'pre': 0.05, 'post': 0.12, 'cont': False}, {'line': 'Research. Script. Edit.', 'key': ['Edit.'], 'vis': 'grid', 'pre': 0.05, 'post': 0.12, 'cont': True, 'cnt': [3, ' steps']}, {'line': 'We handle every step.', 'key': ['step.'], 'vis': 'motion', 'pre': 0.05, 'post': 0.12, 'cont': True}, {'line': 'Contact us to learn more.', 'layout': 'end', 'pre': 0.3, 'post': 1.2, 'cont': True, 'vis': 'end'}])
