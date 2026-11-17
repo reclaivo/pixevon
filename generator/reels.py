@@ -173,3 +173,11 @@ R['W3']=dict(title='Fast feedback',scenes=[
  _a('Feedback should take seconds, not days.','feedback',['seconds,'],title='Review',post=.6,sfx=[('thud',.9),('tick',1.4),('tick',1.6),('shimmer',2.3)]),
  _a('We update it fast.','delivered',['fast.'],title='Delivery',post=.9,cont=True,sfx=[('pop',.5),('pop',.8),('pop',1.1),('shimmer',1.5)]),
  END])
+
+HOT=[dict(i=1,j=3,h=250,l='Watch time'),dict(i=2,j=2,h=190,l='Shares'),dict(i=3,j=1,h=300,l='Saves')]
+def _c(line,key=(),**k): return dict(line=line,vis='city',hot=HOT,key=list(key),pre=.05,post=k.pop('post',.2),**k)
+R['D1']=dict(title='Three numbers',scenes=[
+ _c('Three numbers show if a video works.',['works.'],post=.3,sfx=[('pop',.5),('pop',.8),('pop',1.1)]),
+ _c('Watch time. Shares. Saves.',[],focus=True,post=.5,cont=True,sfx=[('pop',.4),('pop',1.1),('pop',1.8)]),
+ _c('Check them every week.',['week.'],post=.4,sfx=[('shimmer',.6)]),
+ END])

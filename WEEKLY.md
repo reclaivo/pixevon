@@ -75,8 +75,11 @@ The very FIRST FRAME (frame 0, not the first second) of every reel must be the t
 ## LIGHT KINETIC STYLE (Abyan, 17 Nov): all new reels
 Use generator/kinetic.py (light theme, one of the 10 background images with a light tint, word-by-word captions with glowing key word, hard cuts with punch-ins, wall/motion/grid scenes, plain-text end screen). Dark versions are NOT used.
 
-## OCCASIONAL STYLES: GLASS ICONS AND SOFTWARE WALKTHROUGH (17 Nov)
-Abyan approved two extra reel styles for occasional use (about 1 reel in 4, never back to back), both in the LIGHT theme only (no dark or mid blue variants), navy and blue palette only (no orange, pink, green), no characters:
+## STYLE MIXING RULE (17 Nov, Abyan's instruction for every batch from the next one)
+Never follow one template. Every batch must MIX AND MATCH and keep shifting between: (1) the original light kinetic style (kinetic.py), (2) glass icons, (3) software walkthrough, and (4) Data City only when a reel is genuinely about measuring or numbers (never invent figures). Randomize the order, do not use the same style twice in a row, and across any 6 reels use at least 3 different styles. Record the style in each schedule.json post (field "style").
+
+## OCCASIONAL STYLES: GLASS ICONS, SOFTWARE WALKTHROUGH AND DATA CITY (17 Nov)
+Abyan approved extra reel styles to be mixed in (see the mixing rule above), all in the LIGHT theme only (no dark or mid blue variants), navy and blue palette only (no orange, pink, green), no characters:
 - Glass icons (vis "glass", modes orbit, focus, line, chaos, merge): 3D glass tiles for services or steps. Samples G1 to G3 in generator/reels.py.
 - Software walkthrough (vis "app", ui brief, timeline, calendar, delivered, feedback): mock app window with cursor and clicks. Samples W1 to W3.
 Build with generator/gw_base.html and generator/gw_build.py (same gen.py voice, music.py, render.py pipeline as the kinetic reels). Same rules: frame 0 is the finished hook, safe space left empty at top and bottom (logo tag at y 310, captions at y 1190), max 15 s, long captions. Data City style: only when a reel is genuinely about real numbers, never invented ones.
