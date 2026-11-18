@@ -86,3 +86,6 @@ Abyan approved extra reel styles to be mixed in (see the mixing rule above), all
 - Glass icons (vis "glass", modes orbit, focus, line, chaos, merge): 3D glass tiles for services or steps. Samples G1 to G3 in generator/reels.py.
 - Software walkthrough (vis "app", ui brief, timeline, calendar, delivered, feedback): mock app window with cursor and clicks. Samples W1 to W3.
 Build with generator/gw_base.html and generator/gw_build.py (same gen.py voice, music.py, render.py pipeline as the kinetic reels). Same rules: frame 0 is the finished hook, safe space left empty at top and bottom (logo tag at y 310, captions at y 1190), max 15 s, long captions. Data City style: only when a reel is genuinely about real numbers, never invented ones.
+
+
+## STYLE UPDATE (18 Nov): never use kinetic.py (old kinetic style). Use only glass icons, app walkthrough, 3D data city and 3D motion graphics (gw_build.py). Tint is pure black rgba(0,0,0,.90), blues darker, company tag bold ALL CAPS.
