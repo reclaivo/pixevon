@@ -211,12 +211,13 @@
    "type": "Service: YouTube Automation",
    "scheduled_at": "2026-11-18T19:00:00Z",
    "caption": "How does YouTube automation work?\n\nA faceless channel can run on a repeatable system:\n1. Pick one topic and a steady upload rhythm.\n2. Turn every idea into a short script written for the ear.\n3. Add a clear voiceover, animated visuals and captions.\n4. Upload on a schedule and review what viewers watch.\n\nPixevon Productions builds complete AI-powered YouTube channels, from idea to script, voice, animation and upload, and can automate the whole process. Contact us to learn more.\n\n#YouTubeAutomation #FacelessChannel #AIVideo #ContentCreation #Animation",
-   "status": "scheduled",
+   "status": "published",
    "publer_post_id": null,
    "topic": "YouTube automation",
    "caption_long": "How does YouTube automation work?\n\nA faceless channel can run on a repeatable system:\n1. Pick one topic and a steady upload rhythm.\n2. Turn every idea into a short script written for the ear.\n3. Add a clear voiceover, animated visuals and captions.\n4. Upload on a schedule and review what viewers watch.\n\nPixevon Productions builds complete AI-powered YouTube channels, from idea to script, voice, animation and upload, and can automate the whole process. Contact us to learn more.\n\n#YouTubeAutomation #FacelessChannel #AIVideo #ContentCreation #Animation",
    "style": "dark glass icons",
-   "publer_media_id": "6afdea459845e30691b6e238"
+   "publer_media_id": "6afdea459845e30691b6e238",
+   "note": "went live 18 Nov with bright tiles and row outside frame; v2 is R27"
   },
   {
    "file": "2026-11-23-R17-clear-feedback.mp4",
@@ -230,7 +231,8 @@
    "topic": "giving video feedback",
    "caption_long": "How do you give video feedback that gets results?\n\nVague notes cause extra revision rounds. Keep it simple:\n1. Point to the exact moment or timestamp.\n2. Change one thing at a time and say why.\n3. Share all feedback in one round, not many.\n4. Focus on the goal of the video, not personal taste.\n\nPixevon Productions keeps the process simple: send a brief, we script, animate and voice it, and you get your finished video fast. Contact us to learn more.\n\n#VideoFeedback #AnimationStudio #VideoProduction #MotionGraphics #Workflow",
    "style": "dark software walkthrough",
-   "publer_media_id": "6afdea6bc3e3c028118f4cad"
+   "publer_media_id": "6afdea6bc3e3c028118f4cad",
+   "rescheduled": "18 Nov 21:00 after Abyan deleted all future posts"
   },
   {
    "file": "2026-11-24-R18-robotic-voiceover.mp4",
@@ -239,12 +241,13 @@
    "type": "Educational tip",
    "scheduled_at": "2026-11-19T18:30:00Z",
    "caption": "Why does your voiceover sound robotic?\n\nMost robotic voiceovers come from scripts written to be read, not heard. Try this:\n1. Write the way you talk, with short, simple words.\n2. Keep each sentence to one idea.\n3. Add natural pauses between key points.\n4. Read it aloud and cut every line that makes you stumble.\n\nPixevon Productions writes the script, records the voiceover and animates the video, so every explainer sounds natural and clear. Contact us to learn more.\n\n#Voiceover #ScriptWriting #ExplainerVideo #VideoTips #Animation",
-   "status": "scheduled",
+   "status": "deleted",
    "publer_post_id": null,
    "topic": "voiceover scripts",
    "caption_long": "Why does your voiceover sound robotic?\n\nMost robotic voiceovers come from scripts written to be read, not heard. Try this:\n1. Write the way you talk, with short, simple words.\n2. Keep each sentence to one idea.\n3. Add natural pauses between key points.\n4. Read it aloud and cut every line that makes you stumble.\n\nPixevon Productions writes the script, records the voiceover and animates the video, so every explainer sounds natural and clear. Contact us to learn more.\n\n#Voiceover #ScriptWriting #ExplainerVideo #VideoTips #Animation",
    "style": "dark glass icons",
-   "publer_media_id": "6afdea8d03943e7707c90844"
+   "publer_media_id": "6afdea8d03943e7707c90844",
+   "note": "deleted by Abyan 18 Nov, replaced by dark-tile remake"
   },
   {
    "file": "2026-11-24-R19-documentary-questions.mp4",
@@ -258,7 +261,8 @@
    "topic": "documentary interviews",
    "caption_long": "How do you plan a short documentary interview?\n\nGreat documentaries start with the right questions:\n1. Ask open questions that begin with how or why.\n2. Let silence work, because people fill it with honest answers.\n3. Follow the story with one more question, not a new topic.\n4. Collect moments you can show, not only things people say.\n\nPixevon Productions makes short documentaries: research, script, voice and edit, all handled for you. Contact us to learn more.\n\n#ShortDocumentary #Storytelling #DocumentaryFilmmaking #BrandFilm #VideoProduction",
    "style": "dark software walkthrough",
-   "publer_media_id": "6afdeab003943e7707c908e1"
+   "publer_media_id": "6afdeab003943e7707c908e1",
+   "rescheduled": "18 Nov 21:00 after Abyan deleted all future posts"
   },
   {
    "file": "2026-11-25-R20-test-your-hooks.mp4",
@@ -273,7 +277,8 @@
    "caption_long": "How do you test which video hook works best?\n\nDo not guess, compare:\n1. Make two versions with the same video but a different first line.\n2. Change only one thing at a time so you know what worked.\n3. Compare watch time, shares and saves after a few days.\n4. Keep the winner and test a new hook next.\n\nPixevon Productions creates animated reels and social media content, and can produce several hook variations so you can find what your audience loves. Contact us to learn more.\n\n#VideoHooks #SocialMediaContent #ReelsTips #ContentStrategy #Animation",
    "style": "dark data city",
    "publer_media_id": "6afdead303943e7707c90938",
-   "note": "18 Nov: slot confirmed taken on all 3 accounts after create (no failures key in first response)"
+   "note": "18 Nov: slot confirmed taken on all 3 accounts after create (no failures key in first response)",
+   "rescheduled": "18 Nov 21:00 after Abyan deleted all future posts"
   },
   {
    "file": "2026-11-25-R21-one-story-three-formats.mp4",
@@ -282,12 +287,13 @@
    "type": "Service: whole business",
    "scheduled_at": "2026-11-21T12:30:00Z",
    "caption": "How do you repurpose one story into more content?\n\nOne good idea can fuel a whole month:\n1. Start with a strong core story or message.\n2. Turn it into a short documentary for depth.\n3. Cut an animated explainer for clarity.\n4. Make social reels for daily reach.\n\nPixevon Productions makes animation, explainer videos, logo animation, motion ads, short documentaries and social media content, and can automate it completely. Contact us to learn more.\n\n#ContentRepurposing #ShortDocumentary #ExplainerVideo #SocialMediaContent #Animation",
-   "status": "scheduled",
+   "status": "deleted",
    "publer_post_id": null,
    "topic": "repurposing one story",
    "caption_long": "How do you repurpose one story into more content?\n\nOne good idea can fuel a whole month:\n1. Start with a strong core story or message.\n2. Turn it into a short documentary for depth.\n3. Cut an animated explainer for clarity.\n4. Make social reels for daily reach.\n\nPixevon Productions makes animation, explainer videos, logo animation, motion ads, short documentaries and social media content, and can automate it completely. Contact us to learn more.\n\n#ContentRepurposing #ShortDocumentary #ExplainerVideo #SocialMediaContent #Animation",
    "style": "dark glass icons",
-   "publer_media_id": "6afdeaeac3e3c028118f4ed5"
+   "publer_media_id": "6afdeaeac3e3c028118f4ed5",
+   "note": "deleted by Abyan 18 Nov, replaced by dark-tile remake"
   },
   {
    "file": "2026-11-26-R22-sound-design.mp4",
@@ -296,12 +302,13 @@
    "type": "Educational tip",
    "scheduled_at": "2026-11-21T18:30:00Z",
    "caption": "Why does sound design matter in animated videos?\n\nMuted visuals feel flat. Sound is what makes a video feel premium:\n1. Use a clear voiceover so the message lands in the first seconds.\n2. Add small sound effects on key moments, like a pop or a whoosh.\n3. Keep the music soft so it supports the voice instead of fighting it.\n4. Mix levels so every part is easy to hear on a phone speaker.\n\nPixevon Productions handles script, voiceover, sound effects, music and animation, so every video sounds as good as it looks. Contact us to learn more.\n\n#SoundDesign #AnimationStudio #MotionGraphics #VideoProduction #SocialMediaContent",
-   "status": "scheduled",
+   "status": "deleted",
    "publer_post_id": null,
    "topic": "sound design",
    "caption_long": "Why does sound design matter in animated videos?\n\nMuted visuals feel flat. Sound is what makes a video feel premium:\n1. Use a clear voiceover so the message lands in the first seconds.\n2. Add small sound effects on key moments, like a pop or a whoosh.\n3. Keep the music soft so it supports the voice instead of fighting it.\n4. Mix levels so every part is easy to hear on a phone speaker.\n\nPixevon Productions handles script, voiceover, sound effects, music and animation, so every video sounds as good as it looks. Contact us to learn more.\n\n#SoundDesign #AnimationStudio #MotionGraphics #VideoProduction #SocialMediaContent",
    "style": "dark glass icons",
-   "publer_media_id": "6afdfa4ac3e3c028118f80bc"
+   "publer_media_id": "6afdfa4ac3e3c028118f80bc",
+   "note": "deleted by Abyan 18 Nov, replaced by dark-tile remake"
   },
   {
    "file": "2026-11-26-R23-brand-consistency.mp4",
@@ -315,7 +322,8 @@
    "topic": "brand consistency",
    "caption_long": "How do you keep every video on brand?\n\nPeople recognize brands that look the same everywhere:\n1. Pick one color palette and use it in every video.\n2. Reuse the same fonts, logo placement and motion style.\n3. Keep the same voice and tone across all your scripts.\n4. Save a simple style guide so every new video starts from it.\n\nPixevon Productions makes animated videos, motion graphics and social media content in one consistent style, so your brand is recognizable in every reel. Contact us to learn more.\n\n#BrandConsistency #MotionGraphics #AnimationStudio #BrandVideo #SocialMediaContent",
    "style": "dark software walkthrough",
-   "publer_media_id": "6afdfa70c3e3c028118f80f3"
+   "publer_media_id": "6afdfa70c3e3c028118f80f3",
+   "rescheduled": "18 Nov 21:00 after Abyan deleted all future posts"
   },
   {
    "file": "2026-11-26-R24-reel-length.mp4",
@@ -324,12 +332,13 @@
    "type": "Educational tip",
    "scheduled_at": "2026-11-22T18:30:00Z",
    "caption": "How long should a social media reel be?\n\nShorter usually wins, as long as the message is complete:\n1. Aim for under 15 seconds so people watch to the end.\n2. Put the hook in the first second, not after an intro.\n3. Cut every line that does not move the story forward.\n4. Finish with one clear next step.\n\nPixevon Productions scripts, times and animates short reels that stay tight and clear, with voice, sound effects and captions included. Contact us to learn more.\n\n#ReelsTips #ShortFormVideo #SocialMediaContent #AnimatedVideos #VideoMarketing",
-   "status": "scheduled",
+   "status": "deleted",
    "publer_post_id": null,
    "topic": "short video length",
    "caption_long": "How long should a social media reel be?\n\nShorter usually wins, as long as the message is complete:\n1. Aim for under 15 seconds so people watch to the end.\n2. Put the hook in the first second, not after an intro.\n3. Cut every line that does not move the story forward.\n4. Finish with one clear next step.\n\nPixevon Productions scripts, times and animates short reels that stay tight and clear, with voice, sound effects and captions included. Contact us to learn more.\n\n#ReelsTips #ShortFormVideo #SocialMediaContent #AnimatedVideos #VideoMarketing",
    "style": "dark glass icons",
-   "publer_media_id": "6afdfa919845e30691b71aee"
+   "publer_media_id": "6afdfa919845e30691b71aee",
+   "note": "deleted by Abyan 18 Nov, replaced by dark-tile remake"
   },
   {
    "file": "2026-11-27-R25-product-launch-video.mp4",
@@ -343,7 +352,8 @@
    "topic": "product launch video",
    "caption_long": "What makes a good product launch video?\n\nA launch video has one job: help people understand the product fast.\n1. Open with the problem your product solves.\n2. Show the product in motion instead of describing it.\n3. Keep it short, ideally 30 seconds or less.\n4. End with one clear next step.\n\nPixevon Productions makes explainer videos and motion ads for launches: we script, animate and voice them, and your video is ready on launch day. Contact us to learn more.\n\n#ProductLaunch #ExplainerVideo #MotionAds #AnimationStudio #VideoMarketing",
    "style": "dark software walkthrough",
-   "publer_media_id": "6afdfaae9845e30691b71b37"
+   "publer_media_id": "6afdfaae9845e30691b71b37",
+   "rescheduled": "18 Nov 21:00 after Abyan deleted all future posts"
   },
   {
    "file": "2026-11-27-R26-documentary-vs-explainer.mp4",
@@ -352,12 +362,13 @@
    "type": "Service: documentaries and explainers",
    "scheduled_at": "2026-11-23T18:30:00Z",
    "caption": "Documentary or explainer video: which one do you need?\n\nThey solve different problems:\n1. Choose a short documentary to tell a real story, build trust and show people behind the work.\n2. Choose an explainer video to teach how a product or service works in under a minute.\n3. Use both together: the documentary builds trust, the explainer drives action.\n4. Cut short clips from either for social media reach.\n\nPixevon Productions makes short documentaries, explainer videos and animation, all researched, scripted, voiced and edited for you. Contact us to learn more.\n\n#ShortDocumentary #ExplainerVideo #VideoStrategy #AnimationStudio #Storytelling",
-   "status": "scheduled",
+   "status": "deleted",
    "publer_post_id": null,
    "topic": "documentary vs explainer",
    "caption_long": "Documentary or explainer video: which one do you need?\n\nThey solve different problems:\n1. Choose a short documentary to tell a real story, build trust and show people behind the work.\n2. Choose an explainer video to teach how a product or service works in under a minute.\n3. Use both together: the documentary builds trust, the explainer drives action.\n4. Cut short clips from either for social media reach.\n\nPixevon Productions makes short documentaries, explainer videos and animation, all researched, scripted, voiced and edited for you. Contact us to learn more.\n\n#ShortDocumentary #ExplainerVideo #VideoStrategy #AnimationStudio #Storytelling",
    "style": "dark glass icons",
-   "publer_media_id": "6afdfacd9845e30691b71c00"
+   "publer_media_id": "6afdfacd9845e30691b71c00",
+   "note": "deleted by Abyan 18 Nov, replaced by dark-tile remake"
   },
   {
    "file": "2026-11-28-R29-robotic-voiceover-v2.mp4",
@@ -366,12 +377,13 @@
    "type": "Educational tip",
    "scheduled_at": "2026-11-19T18:30:00Z",
    "caption": "Why does your voiceover sound robotic?\n\nMost robotic voiceovers come from scripts written to be read, not heard. Try this:\n1. Write the way you talk, with short, simple words.\n2. Keep each sentence to one idea.\n3. Add natural pauses between key points.\n4. Read it aloud and cut every line that makes you stumble.\n\nPixevon Productions writes the script, records the voiceover and animates the video, so every explainer sounds natural and clear. Contact us to learn more.\n\n#Voiceover #ScriptWriting #ExplainerVideo #VideoTips #Animation",
-   "status": "made",
+   "status": "scheduled",
    "publer_post_id": null,
    "topic": "voiceover scripts",
    "caption_long": "Why does your voiceover sound robotic?\n\nMost robotic voiceovers come from scripts written to be read, not heard. Try this:\n1. Write the way you talk, with short, simple words.\n2. Keep each sentence to one idea.\n3. Add natural pauses between key points.\n4. Read it aloud and cut every line that makes you stumble.\n\nPixevon Productions writes the script, records the voiceover and animates the video, so every explainer sounds natural and clear. Contact us to learn more.\n\n#Voiceover #ScriptWriting #ExplainerVideo #VideoTips #Animation",
    "style": "dark glass icons (v2, dark tiles)",
-   "replaces": "R18"
+   "replaces": "R18",
+   "publer_media_id": "6afe11bb9845e30691b754be"
   },
   {
    "file": "2026-11-28-R27-youtube-automation-v2.mp4",
@@ -394,12 +406,13 @@
    "type": "Service: whole business",
    "scheduled_at": "2026-11-21T12:30:00Z",
    "caption": "How do you repurpose one story into more content?\n\nOne good idea can fuel a whole month:\n1. Start with a strong core story or message.\n2. Turn it into a short documentary for depth.\n3. Cut an animated explainer for clarity.\n4. Make social reels for daily reach.\n\nPixevon Productions makes animation, explainer videos, logo animation, motion ads, short documentaries and social media content, and can automate it completely. Contact us to learn more.\n\n#ContentRepurposing #ShortDocumentary #ExplainerVideo #SocialMediaContent #Animation",
-   "status": "made",
+   "status": "scheduled",
    "publer_post_id": null,
    "topic": "repurposing one story",
    "caption_long": "How do you repurpose one story into more content?\n\nOne good idea can fuel a whole month:\n1. Start with a strong core story or message.\n2. Turn it into a short documentary for depth.\n3. Cut an animated explainer for clarity.\n4. Make social reels for daily reach.\n\nPixevon Productions makes animation, explainer videos, logo animation, motion ads, short documentaries and social media content, and can automate it completely. Contact us to learn more.\n\n#ContentRepurposing #ShortDocumentary #ExplainerVideo #SocialMediaContent #Animation",
    "style": "dark glass icons (v2, dark tiles)",
-   "replaces": "R21"
+   "replaces": "R21",
+   "publer_media_id": "6afe1221c3e3c028118fb55f"
   },
   {
    "file": "2026-11-28-R30-sound-design-v2.mp4",
@@ -408,12 +421,13 @@
    "type": "Educational tip",
    "scheduled_at": "2026-11-21T18:30:00Z",
    "caption": "Why does sound design matter in animated videos?\n\nMuted visuals feel flat. Sound is what makes a video feel premium:\n1. Use a clear voiceover so the message lands in the first seconds.\n2. Add small sound effects on key moments, like a pop or a whoosh.\n3. Keep the music soft so it supports the voice instead of fighting it.\n4. Mix levels so every part is easy to hear on a phone speaker.\n\nPixevon Productions handles script, voiceover, sound effects, music and animation, so every video sounds as good as it looks. Contact us to learn more.\n\n#SoundDesign #AnimationStudio #MotionGraphics #VideoProduction #SocialMediaContent",
-   "status": "made",
+   "status": "scheduled",
    "publer_post_id": null,
    "topic": "sound design",
    "caption_long": "Why does sound design matter in animated videos?\n\nMuted visuals feel flat. Sound is what makes a video feel premium:\n1. Use a clear voiceover so the message lands in the first seconds.\n2. Add small sound effects on key moments, like a pop or a whoosh.\n3. Keep the music soft so it supports the voice instead of fighting it.\n4. Mix levels so every part is easy to hear on a phone speaker.\n\nPixevon Productions handles script, voiceover, sound effects, music and animation, so every video sounds as good as it looks. Contact us to learn more.\n\n#SoundDesign #AnimationStudio #MotionGraphics #VideoProduction #SocialMediaContent",
    "style": "dark glass icons (v2, dark tiles)",
-   "replaces": "R22"
+   "replaces": "R22",
+   "publer_media_id": "6afe124c9845e30691b75658"
   },
   {
    "file": "2026-11-28-R31-reel-length-v2.mp4",
@@ -422,12 +436,13 @@
    "type": "Educational tip",
    "scheduled_at": "2026-11-22T18:30:00Z",
    "caption": "How long should a social media reel be?\n\nShorter usually wins, as long as the message is complete:\n1. Aim for under 15 seconds so people watch to the end.\n2. Put the hook in the first second, not after an intro.\n3. Cut every line that does not move the story forward.\n4. Finish with one clear next step.\n\nPixevon Productions scripts, times and animates short reels that stay tight and clear, with voice, sound effects and captions included. Contact us to learn more.\n\n#ReelsTips #ShortFormVideo #SocialMediaContent #AnimatedVideos #VideoMarketing",
-   "status": "made",
+   "status": "scheduled",
    "publer_post_id": null,
    "topic": "short video length",
    "caption_long": "How long should a social media reel be?\n\nShorter usually wins, as long as the message is complete:\n1. Aim for under 15 seconds so people watch to the end.\n2. Put the hook in the first second, not after an intro.\n3. Cut every line that does not move the story forward.\n4. Finish with one clear next step.\n\nPixevon Productions scripts, times and animates short reels that stay tight and clear, with voice, sound effects and captions included. Contact us to learn more.\n\n#ReelsTips #ShortFormVideo #SocialMediaContent #AnimatedVideos #VideoMarketing",
    "style": "dark glass icons (v2, dark tiles)",
-   "replaces": "R24"
+   "replaces": "R24",
+   "publer_media_id": "6afe129a03943e7707c97622"
   }
  ],
  "note": "Publer free plan: max 10 scheduled per account. Verify in calendar that posts exist; parallel creates can silently drop posts, so create sequentially. R14, R15 (Sun 22 Nov 12:30Z, 18:30Z) still need scheduling."
