@@ -1,0 +1,9 @@
+# generated build intermediates (final mp4s live in videos/)
+generator/out/
+generator/fr_*/
+generator/kbg_*.png
+generator/gbg_*.png
+generator/[A-Z][0-9]*.html
+generator/[A-Z][0-9]*.json
+generator/[A-Z][0-9]*.wav
+__pycache__/
