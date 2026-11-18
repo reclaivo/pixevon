@@ -106,3 +106,6 @@ Old light posts were deleted from Publer. New dark reels scheduled from Wed 18 N
 4. After rendering, look at frames at about 85 percent of every scene (not just frame 0). If any box, label or text is cut by the frame edge or looks bright blue, remake the reel before it is scheduled. Never schedule a reel that was not checked this way.
 
 ## NOTE 18 Nov 22:00 UTC: R27 (YouTube automation v2) was published immediately (replacing the deleted R16). The Tue 24 Nov 12:30 UTC slot is therefore FREE: fill it with a new reel. A one-off safety net task ("Pixevon: safety net (cheap check)") re-books itself and only acts if the main top-up chain fails.
+
+## FIRST COMMENT RULE (Abyan, 18 Nov 2026), overrides any task prompt
+Every NEW create_post (from now on) must include auto_comment_enabled true and auto_comment_text as a list with ONE short engagement question that fits the reel topic (for example "What is your biggest struggle with video?"). No em dashes, no hashtags, no links, under 120 characters, different for each reel. Store it in schedule.json as "first_comment". It costs no extra Zapier calls. If a create_post fails because of the comment fields, retry once without them and tell Abyan. Posts already scheduled before 18 Nov 22:30 UTC do not have it and must not be recreated for this.
