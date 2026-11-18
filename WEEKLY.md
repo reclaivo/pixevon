@@ -104,3 +104,5 @@ Old light posts were deleted from Publer. New dark reels scheduled from Wed 18 N
 2. Every glass row, orbit and label must stay inside x 40 to 1040 at all times. gw_base.html sizes rows with rowGeo(); do not hard-code tile sizes or gaps.
 3. After python3 gw_build.py and BEFORE rendering, run: python3 qa_bounds.py NAME (all glass reels). It must print OK. If it prints FAIL, fix and rebuild, do not ship.
 4. After rendering, look at frames at about 85 percent of every scene (not just frame 0). If any box, label or text is cut by the frame edge or looks bright blue, remake the reel before it is scheduled. Never schedule a reel that was not checked this way.
+
+## NOTE 18 Nov 22:00 UTC: R27 (YouTube automation v2) was published immediately (replacing the deleted R16). The Tue 24 Nov 12:30 UTC slot is therefore FREE: fill it with a new reel. A one-off safety net task ("Pixevon: safety net (cheap check)") re-books itself and only acts if the main top-up chain fails.

@@ -390,14 +390,16 @@
    "url": "https://raw.githubusercontent.com/reclaivo/pixevon/main/videos/2026-11-28-R27-youtube-automation-v2.mp4",
    "reel": "R27",
    "type": "Service: YouTube Automation",
-   "scheduled_at": "2026-11-24T12:30:00Z",
+   "scheduled_at": "2026-11-18T22:00:00Z",
    "caption": "How does YouTube automation work?\n\nA faceless channel can run on a repeatable system:\n1. Pick one topic and a steady upload rhythm.\n2. Turn every idea into a short script written for the ear.\n3. Add a clear voiceover, animated visuals and captions.\n4. Upload on a schedule and review what viewers watch.\n\nPixevon Productions builds complete AI-powered YouTube channels, from idea to script, voice, animation and upload, and can automate the whole process. Contact us to learn more.\n\n#YouTubeAutomation #FacelessChannel #AIVideo #ContentCreation #Animation",
-   "status": "made",
+   "status": "published",
    "publer_post_id": null,
    "topic": "YouTube automation",
    "caption_long": "How does YouTube automation work?\n\nA faceless channel can run on a repeatable system:\n1. Pick one topic and a steady upload rhythm.\n2. Turn every idea into a short script written for the ear.\n3. Add a clear voiceover, animated visuals and captions.\n4. Upload on a schedule and review what viewers watch.\n\nPixevon Productions builds complete AI-powered YouTube channels, from idea to script, voice, animation and upload, and can automate the whole process. Contact us to learn more.\n\n#YouTubeAutomation #FacelessChannel #AIVideo #ContentCreation #Animation",
    "style": "dark glass icons (v2, dark tiles)",
-   "replaces": "R16"
+   "replaces": "R16",
+   "note": "Published now 18 Nov ~22:00 UTC after Abyan deleted live R16; Publer call timed out, Abyan to confirm it is up once. Slot Tue 24 Nov 12:30 UTC is free for a new reel.",
+   "publer_media_id": "6afe1ff3c3e3c028118fd4d4"
   },
   {
    "file": "2026-11-28-R28-one-story-three-formats-v2.mp4",
