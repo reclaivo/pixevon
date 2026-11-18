@@ -6,6 +6,8 @@ THEME=os.environ.get('REEL_THEME','dark')
 from reels import R
 T=open(f'{D}/gw_base.html').read()
 if THEME=='dark': T=apply(T,GW_DARK)
+if THEME=='dark':
+    for c in ('#E0304A','#FF4D5E','#FF2A44'): T=T.replace(c,'#5B8CFF')
 T=safe(T,'const els=TL.scenes.map(mk);')
 for name,bgn in [(a.split(':')[0],a.split(':')[1]) for a in sys.argv[1:]]:
     d=json.load(open(f'{D}/{name}.json'))

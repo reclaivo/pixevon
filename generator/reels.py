@@ -181,3 +181,50 @@ R['D1']=dict(title='Three numbers',scenes=[
  _c('Watch time. Shares. Saves.',[],focus=True,post=.5,cont=True,sfx=[('pop',.4),('pop',1.1),('pop',1.8)]),
  _c('Check them every week.',['week.'],post=.4,sfx=[('shimmer',.6)]),
  END])
+
+# ---- batch Mon 23 to Wed 25 Nov 2026 (R16 to R21) ----
+R['G4']=dict(title='YouTube automation',scenes=[
+ _g('Imagine a YouTube channel that runs itself.','orbit',['bulb','doc','mic','play','check'],['itself.'],labels=['Idea','Script','Voice','Video','Upload'],post=.3,sfx=[('pop',.3),('pop',.6),('pop',.9),('pop',1.2)]),
+ _g('Idea. Script. Voice. Video. Upload.','line',['bulb','doc','mic','play','check'],[],labels=['Idea','Script','Voice','Video','Upload'],post=.4,cont=True,sfx=[('pop',.3),('pop',.7),('pop',1.1),('pop',1.5),('pop',1.9)]),
+ _g('That is YouTube Automation.','focus',['play'],['Automation.'],post=.3,cont=True,sfx=[('shimmer',.5)]),
+ END])
+R['K17']=dict(title='Robotic voiceover',scenes=[
+ {'line':'Does your voiceover sound robotic?','key':['robotic?'],'vis':'wall','pre':.05,'post':.12,'cont':False,'notm':True},
+ {'line':'Write for the ear, not the eye.','key':['ear,'],'vis':'motion','pre':.05,'post':.12,'cont':True},
+ {'line':'Short lines. Natural pauses.','key':['pauses.'],'vis':'grid','pre':.05,'post':.12,'cont':True},
+ {'line':'We script and voice every video.','key':['voice'],'vis':'motion','pre':.05,'post':.12,'cont':True},
+ {'line':'Contact us to learn more.','layout':'end','pre':.3,'post':1.2,'cont':True,'vis':'end'}])
+R['W4']=dict(title='Clear feedback',scenes=[
+ _a('Clear feedback means fewer revisions.','feedback',['fewer'],title='Review',post=.6,sfx=[('thud',.9),('tick',1.4),('tick',1.6),('shimmer',2.3)]),
+ _a('We script, animate and voice it.','timeline',['animate'],title='Studio',post=.5,cont=True,sfx=[('pop',.3),('pop',.7),('pop',1.1),('shimmer',1.9)]),
+ _a('Your video is ready sooner.','delivered',['sooner.'],title='Delivery',post=.9,cont=True,sfx=[('pop',.5),('pop',.8),('pop',1.1),('shimmer',1.5)]),
+ END])
+R['K19']=dict(title='Documentary questions',scenes=[
+ {'line':'Great documentaries start with questions.','key':['questions.'],'vis':'motion','pre':.05,'post':.12,'cont':False},
+ {'line':'Ask open ones. Then stay quiet.','key':['quiet.'],'vis':'grid','pre':.05,'post':.12,'cont':True},
+ {'line':'We make short documentaries.','key':['documentaries.'],'vis':'motion','pre':.05,'post':.12,'cont':True},
+ {'line':'Contact us to learn more.','layout':'end','pre':.3,'post':1.2,'cont':True,'vis':'end'}])
+HOT2=[dict(i=1,j=3,h=210,l='Hook A'),dict(i=2,j=2,h=300,l='Hook B'),dict(i=3,j=1,h=250,l='Hook C')]
+def _c2(line,key=(),**k): return dict(line=line,vis='city',hot=HOT2,key=list(key),pre=.05,post=k.pop('post',.2),**k)
+R['D2']=dict(title='Test your hooks',scenes=[
+ _c2('Which hook works best? Test it.',['Test'],post=.3,sfx=[('pop',.5),('pop',.8),('pop',1.1)]),
+ _c2('Change one thing. Compare.',['one'],focus=True,post=.4,cont=True,sfx=[('pop',.4),('pop',1.1)]),
+ _c2('Keep the winner.',['winner.'],post=.4,sfx=[('shimmer',.6)]),
+ END])
+R['G5']=dict(title='One story three formats',scenes=[
+ _g('One story. Three formats.','orbit',['reel','play','heart'],['Three'],labels=['Documentary','Explainer','Social reel'],post=.3,sfx=[('pop',.3),('pop',.6),('pop',.9)]),
+ _g('We repurpose it for you.','line',['reel','play','heart'],['repurpose'],labels=['Documentary','Explainer','Social reel'],post=.4,cont=True,sfx=[('pop',.3),('pop',.7),('pop',1.1)]),
+ _g('Animation. Documentaries. Social content.','focus',['play','reel','heart'],[],post=.3,cont=True,sfx=[('pop',.4),('pop',1.1),('pop',1.8)]),
+ END])
+
+R['G6']=dict(title='Robotic voiceover',scenes=[
+ _g('Does your voiceover sound robotic?','chaos',['mic','doc','clock','tool'],['robotic?'],post=.3,sfx=[('tick',.3),('tick',.8),('tick',1.4)]),
+ _g('Write for the ear, not the eye.','focus',['doc','mic'],['ear,'],labels=['Script','Voice'],post=.3,cont=True,sfx=[('pop',.4),('pop',1.1)]),
+ _g('Short lines. Natural pauses.','line',['doc','clock','mic'],['pauses.'],labels=['Short lines','Pauses','Voice'],post=.5,cont=True,sfx=[('pop',.3),('pop',.8),('pop',1.3)]),
+ _g('We script and voice every video.','focus',['doc','mic','play'],['voice'],post=.3,cont=True,sfx=[('pop',.4),('pop',1.0),('pop',1.6)]),
+ END])
+R['W5']=dict(title='Documentary questions',scenes=[
+ _a('Great documentaries start with questions.','brief',['questions.'],title='Documentary',type='How did it all start?',post=1.1,sfx=[('tick',.4),('tick',.55),('tick',.7),('tick',.85),('thud',1.9)]),
+ _a('Research. Script. Edit.','timeline',['Edit.'],title='Studio',post=.5,cont=True,sfx=[('pop',.3),('pop',.7),('pop',1.1),('shimmer',1.9)]),
+ _a('We make short documentaries.','delivered',['documentaries.'],title='Delivery',post=.5,cont=True,sfx=[('pop',.5),('pop',.8),('pop',1.1),('shimmer',1.5)]),
+ END])
