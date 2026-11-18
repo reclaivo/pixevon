@@ -1,7 +1,7 @@
 # Dark theme (black base, navy highlights, white logo) for the reel templates. Default theme since 18 Nov 2026.
 import os
 D=os.path.dirname(os.path.abspath(__file__))
-DARK_TINT='rgba(0,0,0,.95)'
+DARK_TINT='rgba(0,0,0,.90)'
 ROOT_BG='radial-gradient(900px 700px at 50% 36%,#030408 0%,#010102 55%,#000 100%)'
 def bgfile(name):
     for p in (f'{D}/bg/{name}.png',f'{D}/../video2/bg/{name}.png'):
