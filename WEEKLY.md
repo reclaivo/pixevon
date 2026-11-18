@@ -10,7 +10,7 @@ Use ONLY the ZapierP connection (the Pixevon one). Never use the main Zapier con
 - Times in Publer are UTC. London = UTC in winter, UTC+1 from the last Sunday of March to the last Sunday of October.
 
 ## Reel rules (all agreed with Abyan, do not break)
-- 9:16, max 15 s, strong hook in the first second (the first spoken words are the hook), voice + sound effects + soft ambient music (no beats). Light theme only.
+- 9:16, max 15 s, strong hook in the first second (the first spoken words are the hook), voice + sound effects + soft ambient music (no beats). DARK theme only (black background, navy highlights, white new logo, one blue accent, no characters). Keep extra empty space at the top and bottom: generators already wrap scenes in a .92 safe scale, never override it.
 - Every single point or scene needs a relevant motion graphic (3D phone UI, animated card). Never a bare text scene. Add new UIs/cards in `generator/template.html` (objects `UI` for phone screens, `XC` for 2D cards) when a topic needs one.
 - Rotate and shuffle all 10 backgrounds (`bg/`), tinted so the content is the focus. No stickmen, no boxes behind content.
 - Keep the logo and headline lowered (TikTok search bar). Top and bottom stay free for app UI.
@@ -54,7 +54,7 @@ Reels must look like the Reclaivo videos Abyan loved: bold, busy in a good way, 
 - `shock=True` adds an expanding shockwave ring on the scene start (use on the hook scene).
 - `chips=[dict(t='TEXT',x=..,y=..)]` pops 3D-looking pills around the visual (use on the hook scene, keep them left/right of the main visual, not over text).
 - Existing: 3D phone UIs, XC animated cards, rotating tinted backgrounds, sound effects.
-Rules for every reel: the FIRST scene must be a strong visual hook (shock and/or chips plus a b3d or phone scene), every scene has a 3D or advanced motion graphic, at least 2 of the 3 b3d kinds across a batch, no characters, light theme, navy palette. Keep render cost low: one reel renders in about 5 to 10 minutes, so render in batches.
+Rules for every reel: the FIRST scene must be a strong visual hook (shock and/or chips plus a b3d or phone scene), every scene has a 3D or advanced motion graphic, at least 2 of the 3 b3d kinds across a batch, no characters, DARK theme (black base, navy highlights, white logo, blue accent). Keep render cost low: one reel renders in about 5 to 10 minutes, so render in batches.
 
 ## LAYOUT CONTRACT for 3D/motion scenes (Abyan, 2026-11-16: "animation must never get into the text, do not let this happen again")
 - Headline zone: y from 380 to about 740. Max 2 lines, hs 96 or smaller (use hs 84 for long lines). Nothing may cross it.
@@ -72,14 +72,17 @@ Create posts ONE AT A TIME (never in parallel); parallel creates silently droppe
 ## THUMBNAIL RULE (Abyan, 17 Nov)
 The very FIRST FRAME (frame 0, not the first second) of every reel must be the thumbnail: the full hook headline fully visible and the main visual in place, with no empty or half-built state. In the kinetic template frame 0 is forced to the finished composition, then words animate from frame 1.
 
-## LIGHT KINETIC STYLE (Abyan, 17 Nov): all new reels
-Use generator/kinetic.py (light theme, one of the 10 background images with a light tint, word-by-word captions with glowing key word, hard cuts with punch-ins, wall/motion/grid scenes, plain-text end screen). Dark versions are NOT used.
+## DARK THEME (Abyan, 18 Nov): all new reels
+Theme changed to DARK on 18 Nov 2026. generator/theme_dark.py holds the substitutions; kinetic.py and gw_build.py default to REEL_THEME=dark (set REEL_THEME=light only if Abyan asks). Always check frame 0 and one mid frame for overlap and top/bottom space before scheduling.
+
+## KINETIC STYLE
+Use generator/kinetic.py (dark theme, one of the 10 background images with a dark tint, word-by-word captions with glowing key word, hard cuts with punch-ins, wall/motion/grid scenes, plain-text end screen). Light versions are no longer used.
 
 ## STYLE MIXING RULE (17 Nov, Abyan's instruction for every batch from the next one)
 Never follow one template. Every batch must MIX AND MATCH and keep shifting between: (1) the original light kinetic style (kinetic.py), (2) glass icons, (3) software walkthrough, and (4) Data City only when a reel is genuinely about measuring or numbers (never invent figures). Randomize the order, do not use the same style twice in a row, and across any 6 reels use at least 3 different styles. Record the style in each schedule.json post (field "style").
 
 ## OCCASIONAL STYLES: GLASS ICONS, SOFTWARE WALKTHROUGH AND DATA CITY (17 Nov)
-Abyan approved extra reel styles to be mixed in (see the mixing rule above), all in the LIGHT theme only (no dark or mid blue variants), navy and blue palette only (no orange, pink, green), no characters:
+Abyan approved extra reel styles to be mixed in (see the mixing rule above), all in the DARK theme (black base, navy and blue palette only (no orange, pink, green), no characters:
 - Glass icons (vis "glass", modes orbit, focus, line, chaos, merge): 3D glass tiles for services or steps. Samples G1 to G3 in generator/reels.py.
 - Software walkthrough (vis "app", ui brief, timeline, calendar, delivered, feedback): mock app window with cursor and clicks. Samples W1 to W3.
 Build with generator/gw_base.html and generator/gw_build.py (same gen.py voice, music.py, render.py pipeline as the kinetic reels). Same rules: frame 0 is the finished hook, safe space left empty at top and bottom (logo tag at y 310, captions at y 1190), max 15 s, long captions. Data City style: only when a reel is genuinely about real numbers, never invented ones.

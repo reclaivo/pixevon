@@ -1,6 +1,9 @@
 # Build light-theme kinetic reel HTML. Usage: python3 kinetic.py K3 K6 ...  (needs NAME.json, NAME.wav, NAME_music.wav from gen.py/music.py, and kin2_base.html)
 import json,sys,random,shutil,os
 D=os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0,D)
+from theme_dark import KIN_DARK,DARK_TINT,apply,safe,bgfile
+THEME=os.environ.get('REEL_THEME','dark')  # dark (default since 18 Nov 2026) or light
 T=open(f'{D}/kin2_base.html').read()
 BGS=['office','desklight','camera','deskdark','shapes','bg1','bg2','bg3','bg4','bg5']
 LIGHT=[
@@ -32,20 +35,24 @@ LIGHT=[
 ("drop-shadow(0 0 30px rgba(91,140,255,.7))","drop-shadow(0 8px 22px rgba(47,91,255,.25))"),
 ]
 h0=T
-for a,b in LIGHT:
-    assert a in h0,a
-    h0=h0.replace(a,b)
+if THEME=='dark':
+    h0=apply(h0,KIN_DARK)
+else:
+    for a,b in LIGHT:
+        assert a in h0,a
+        h0=h0.replace(a,b)
+h0=safe(h0,'const els=TL.scenes.map(mkScene);')
 for name in sys.argv[1:]:
     n=int(name[1:]); ORDER=['K3','K6','K5','K7','K8','K9','K10','K11','K12','K13','K14','K15']
     r=random.Random(n*7+3); seq=BGS[:]; r.shuffle(seq)
     if name in ORDER: seq=[BGS[ORDER.index(name)%10]]
     bg=f'kbg_{seq[0]}.png'
-    shutil.copy(f'{D}/../video2/bg/{seq[0]}.png',f'{D}/{bg}') if os.path.exists(f'{D}/../video2/bg/{seq[0]}.png') else None
+    shutil.copy(bgfile(seq[0]),f'{D}/{bg}')
     d=json.load(open(f'{D}/{name}.json'))
     src=json.load(open(f'{D}/{name}.json'))
     from reels import R
     for sc,sp in zip(d['scenes'],R[name]['scenes']):
         for k in ('vis','cnt','notm','key'):
             if k in sp: sc[k]=sp[k]
-    h=h0.replace('/*TL*/',json.dumps(d)).replace('/*CFG*/',json.dumps(dict(bg=bg,tint='rgba(240,245,255,.84)')))
+    h=h0.replace('/*TL*/',json.dumps(d)).replace('/*CFG*/',json.dumps(dict(bg=bg,tint=(DARK_TINT if THEME=='dark' else 'rgba(240,245,255,.84)'))))
     open(f'{D}/{name}.html','w').write(h); print(name,bg)
