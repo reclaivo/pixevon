@@ -89,3 +89,6 @@ Build with generator/gw_base.html and generator/gw_build.py (same gen.py voice, 
 
 
 ## STYLE UPDATE (18 Nov): never use kinetic.py (old kinetic style). Use only glass icons, app walkthrough, 3D data city and 3D motion graphics (gw_build.py). Tint is pure black rgba(0,0,0,.90), blues darker, company tag bold ALL CAPS.
+
+## CADENCE (Abyan, 18 Nov 2026)
+Old light posts were deleted from Publer. New dark reels scheduled from Wed 18 Nov 19:00 UTC. 2 reels per day (12:30 and 18:30 UTC) until Sun 29 Nov 2026 (trial period), then 1 reel per day at 12:30 UTC, 6 days a week (Mon to Sat, Sunday off). Weekly: Sunday 10:12 London make, Monday 13:07 schedule, Thursday 11:03 top-up (Publer cap 10 per account).
