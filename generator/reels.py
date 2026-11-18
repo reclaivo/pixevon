@@ -228,3 +228,30 @@ R['W5']=dict(title='Documentary questions',scenes=[
  _a('Research. Script. Edit.','timeline',['Edit.'],title='Studio',post=.5,cont=True,sfx=[('pop',.3),('pop',.7),('pop',1.1),('shimmer',1.9)]),
  _a('We make short documentaries.','delivered',['documentaries.'],title='Delivery',post=.5,cont=True,sfx=[('pop',.5),('pop',.8),('pop',1.1),('shimmer',1.5)]),
  END])
+
+# ---- batch R22 to R26 (scheduled Sat 21 18:30 to Mon 23 18:30) ----
+R['G7']=dict(title='Sound design',scenes=[
+ _g('Great animation is half sound.','orbit',['mic','bolt','heart','play'],['sound.'],labels=['Voice','Effects','Music','Video'],post=.3,sfx=[('pop',.3),('pop',.6),('pop',.9),('pop',1.2)]),
+ _g('Voice. Effects. Soft music.','line',['mic','bolt','heart'],[],labels=['Voice','Effects','Music'],post=.4,cont=True,sfx=[('pop',.3),('pop',.8),('pop',1.3)]),
+ _g('We mix all of it for you.','focus',['mic','bolt','heart'],['mix'],post=.3,cont=True,sfx=[('pop',.4),('pop',1.0),('pop',1.6)]),
+ END])
+R['W6']=dict(title='Brand consistency',scenes=[
+ _a('Your videos should look like one brand.','brief',['one'],title='Brand style',type='Same colors, same motion',post=1.1,sfx=[('tick',.4),('tick',.55),('tick',.7),('tick',.85),('thud',1.9)]),
+ _a('We keep every video on style.','timeline',['style.'],title='Studio',post=.5,cont=True,sfx=[('pop',.3),('pop',.7),('pop',1.1),('shimmer',1.9)]),
+ _a('Consistent. Recognizable. Ready.','delivered',['Recognizable.'],title='Delivery',post=.5,cont=True,sfx=[('pop',.5),('pop',.8),('pop',1.1),('shimmer',1.5)]),
+ END])
+R['G8']=dict(title='Short video length',scenes=[
+ _g('How long should a reel be?','chaos',['clock','play','chart','reel'],['long'],post=.3,sfx=[('tick',.3),('tick',.8),('tick',1.4)]),
+ _g('Under fifteen seconds.','focus',['clock'],['fifteen'],labels=['15 sec'],post=.3,cont=True,sfx=[('pop',.5),('shimmer',1.0)]),
+ _g('We cut every reel to fit.','line',['doc','clock','reel'],['fit.'],labels=['Script','Timing','Reel'],post=.5,cont=True,sfx=[('pop',.3),('pop',.8),('pop',1.3)]),
+ END])
+R['W7']=dict(title='Product launch video',scenes=[
+ _a('Launching a product? Show it moving.','brief',['moving.'],title='Product launch',type='Explainer video, 30 seconds',post=1.1,sfx=[('tick',.4),('tick',.55),('tick',.7),('tick',.85),('thud',1.9)]),
+ _a('We script, animate and voice it.','timeline',['animate'],title='Studio',post=.5,cont=True,sfx=[('pop',.3),('pop',.7),('pop',1.1),('shimmer',1.9)]),
+ _a('Launch day, your video is ready.','delivered',['ready.'],title='Delivery',post=.5,cont=True,sfx=[('pop',.5),('pop',.8),('pop',1.1),('shimmer',1.5)]),
+ END])
+R['G9']=dict(title='Documentary vs explainer',scenes=[
+ _g('Documentary or explainer video?','chaos',['reel','play','bulb','doc'],['or'],post=.3,sfx=[('tick',.3),('tick',.8),('tick',1.4)]),
+ _g('Stories need a documentary.','focus',['reel','heart'],['documentary.'],labels=['Documentary','Story'],post=.3,cont=True,sfx=[('pop',.4),('pop',1.1)]),
+ _g('Products need an explainer.','focus',['play','bulb'],['explainer.'],labels=['Explainer','Product'],post=.3,cont=True,sfx=[('pop',.4),('pop',1.1)]),
+ END])
