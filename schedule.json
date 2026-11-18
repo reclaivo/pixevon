@@ -451,13 +451,14 @@
    "type": "Service: documentaries and explainers",
    "scheduled_at": "2026-11-23T18:30:00Z",
    "caption": "Documentary or explainer video: which one do you need?\n\nThey solve different problems:\n1. Choose a short documentary to tell a real story, build trust and show people behind the work.\n2. Choose an explainer video to teach how a product or service works in under a minute.\n3. Use both together: the documentary builds trust, the explainer drives action.\n4. Cut short clips from either for social media reach.\n\nPixevon Productions makes short documentaries, explainer videos and animation, all researched, scripted, voiced and edited for you. Contact us to learn more.\n\n#ShortDocumentary #ExplainerVideo #VideoStrategy #AnimationStudio #Storytelling",
-   "status": "made",
+   "status": "scheduled",
    "publer_post_id": null,
    "topic": "documentary vs explainer",
    "caption_long": "Documentary or explainer video: which one do you need?\n\nThey solve different problems:\n1. Choose a short documentary to tell a real story, build trust and show people behind the work.\n2. Choose an explainer video to teach how a product or service works in under a minute.\n3. Use both together: the documentary builds trust, the explainer drives action.\n4. Cut short clips from either for social media reach.\n\nPixevon Productions makes short documentaries, explainer videos and animation, all researched, scripted, voiced and edited for you. Contact us to learn more.\n\n#ShortDocumentary #ExplainerVideo #VideoStrategy #AnimationStudio #Storytelling",
    "style": "dark glass icons (v2, dark tiles)",
    "note": "deleted by Abyan 18 Nov, replaced by dark-tile remake",
-   "replaces": "R26"
+   "replaces": "R26",
+   "publer_media_id": "6afe135603943e7707c978b3"
   }
  ],
  "note": "Publer free plan: max 10 scheduled per account. Verify in calendar that posts exist; parallel creates can silently drop posts, so create sequentially. R14, R15 (Sun 22 Nov 12:30Z, 18:30Z) still need scheduling."
