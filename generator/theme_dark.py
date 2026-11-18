@@ -15,6 +15,8 @@ KIN_DARK=[
 ("#4DFFA6","#9DB6FF"),("#FFD27A","#9DB6FF"),
 ]
 GW_DARK=[
+("background:linear-gradient(150deg,${col}F2,${col}A6 55%,${col}D0);box-shadow:inset 0 -14px 26px rgba(255,255,255,.18),0 8px 0 ${bd},0 12px 0 rgba(10,26,68,.15),0 34px 50px -10px ${col}99","background:linear-gradient(150deg,#16215C,#0A1131 58%,#0D1647);border:2px solid rgba(96,130,240,.5);box-shadow:inset 0 -14px 26px rgba(0,0,0,.45),inset 0 2px 0 rgba(150,180,255,.25),0 8px 0 #04060F,0 34px 50px -10px rgba(0,0,0,.85),0 0 36px rgba(40,75,200,.28)"),
+("background:linear-gradient(150deg,#1738B8F2,#2F5BFFB0);box-shadow:0 10px 0 #0F2A8F,0 50px 70px -10px rgba(47,91,255,.6)","background:linear-gradient(150deg,#16215C,#0A1131);border:2px solid rgba(96,130,240,.55);box-shadow:0 10px 0 #04060F,0 50px 70px -10px rgba(0,0,0,.85),0 0 60px rgba(40,75,200,.3)"),
 ("background:#EAF0FF;font-family","background:#020306;font-family"),
 ("overflow:hidden;background:#EAF0FF}","overflow:hidden;background:"+ROOT_BG+"}"),
 ("rgba(20,40,100,.28) 100%","rgba(0,0,0,.62) 100%"),

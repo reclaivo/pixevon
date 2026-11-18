@@ -98,3 +98,9 @@ Old light posts were deleted from Publer. New dark reels scheduled from Wed 18 N
 2. NEVER wait or poll for a number of reels. Schedule whatever dark reels exist immediately, in slot order, then render more and schedule those too in the same run.
 3. If any slot in the next 24 hours has no scheduled post, that is a failure: fix it now, and say so in the message to Abyan.
 4. Always report to Abyan, even when everything worked (what is scheduled, with times).
+
+## GLASS TILE QA RULE (Abyan, 18 Nov 2026, after R16 shipped with tiles outside the frame and bright blue boxes)
+1. Glass tiles must be DARK (deep navy #16215C to #0A1131 with a thin blue edge), never bright blue. theme_dark.py enforces this; never override it.
+2. Every glass row, orbit and label must stay inside x 40 to 1040 at all times. gw_base.html sizes rows with rowGeo(); do not hard-code tile sizes or gaps.
+3. After python3 gw_build.py and BEFORE rendering, run: python3 qa_bounds.py NAME (all glass reels). It must print OK. If it prints FAIL, fix and rebuild, do not ship.
+4. After rendering, look at frames at about 85 percent of every scene (not just frame 0). If any box, label or text is cut by the frame edge or looks bright blue, remake the reel before it is scheduled. Never schedule a reel that was not checked this way.
