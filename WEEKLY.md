@@ -92,3 +92,9 @@ Build with generator/gw_base.html and generator/gw_build.py (same gen.py voice, 
 
 ## CADENCE (Abyan, 18 Nov 2026)
 Old light posts were deleted from Publer. New dark reels scheduled from Wed 18 Nov 19:00 UTC. 2 reels per day (12:30 and 18:30 UTC) until Sun 29 Nov 2026 (trial period), then 1 reel per day at 12:30 UTC, 6 days a week (Mon to Sat, Sunday off). Weekly: Sunday 10:12 London make, Monday 13:07 schedule, Thursday 11:03 top-up (Publer cap 10 per account).
+
+## PUBLER RELIABILITY RULES (18 Nov 2026, these OVERRIDE any conflicting line in a task prompt)
+1. UPLOAD URL: raw.githubusercontent.com failed on 18 Nov ("not a publicly accessible media"). Upload with publer_upload_media using https://cdn.jsdelivr.net/gh/reclaivo/pixevon@main/videos/<file> FIRST. Only if that fails try https://raw.githubusercontent.com/reclaivo/pixevon/main/videos/<file>. If both fail, tell Abyan at once with the exact error.
+2. NEVER wait or poll for a number of reels. Schedule whatever dark reels exist immediately, in slot order, then render more and schedule those too in the same run.
+3. If any slot in the next 24 hours has no scheduled post, that is a failure: fix it now, and say so in the message to Abyan.
+4. Always report to Abyan, even when everything worked (what is scheduled, with times).
