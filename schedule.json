@@ -4,7 +4,7 @@
   "6af9f3911fc93c847bd2daef",
   "6af9f28c1fc93c847bd2d796"
  ],
- "last_reel_number": 26,
+ "last_reel_number": 29,
  "posts": [
   {
    "file": "2026-11-15-R2-pulso-course.mp4",
@@ -358,6 +358,20 @@
    "caption_long": "Documentary or explainer video: which one do you need?\n\nThey solve different problems:\n1. Choose a short documentary to tell a real story, build trust and show people behind the work.\n2. Choose an explainer video to teach how a product or service works in under a minute.\n3. Use both together: the documentary builds trust, the explainer drives action.\n4. Cut short clips from either for social media reach.\n\nPixevon Productions makes short documentaries, explainer videos and animation, all researched, scripted, voiced and edited for you. Contact us to learn more.\n\n#ShortDocumentary #ExplainerVideo #VideoStrategy #AnimationStudio #Storytelling",
    "style": "dark glass icons",
    "publer_media_id": "6afdfacd9845e30691b71c00"
+  },
+  {
+   "file": "2026-11-28-R29-robotic-voiceover-v2.mp4",
+   "url": "https://raw.githubusercontent.com/reclaivo/pixevon/main/videos/2026-11-28-R29-robotic-voiceover-v2.mp4",
+   "reel": "R29",
+   "type": "Educational tip",
+   "scheduled_at": "2026-11-19T18:30:00Z",
+   "caption": "Why does your voiceover sound robotic?\n\nMost robotic voiceovers come from scripts written to be read, not heard. Try this:\n1. Write the way you talk, with short, simple words.\n2. Keep each sentence to one idea.\n3. Add natural pauses between key points.\n4. Read it aloud and cut every line that makes you stumble.\n\nPixevon Productions writes the script, records the voiceover and animates the video, so every explainer sounds natural and clear. Contact us to learn more.\n\n#Voiceover #ScriptWriting #ExplainerVideo #VideoTips #Animation",
+   "status": "made",
+   "publer_post_id": null,
+   "topic": "voiceover scripts",
+   "caption_long": "Why does your voiceover sound robotic?\n\nMost robotic voiceovers come from scripts written to be read, not heard. Try this:\n1. Write the way you talk, with short, simple words.\n2. Keep each sentence to one idea.\n3. Add natural pauses between key points.\n4. Read it aloud and cut every line that makes you stumble.\n\nPixevon Productions writes the script, records the voiceover and animates the video, so every explainer sounds natural and clear. Contact us to learn more.\n\n#Voiceover #ScriptWriting #ExplainerVideo #VideoTips #Animation",
+   "style": "dark glass icons (v2, dark tiles)",
+   "replaces": "R18"
   }
  ],
  "note": "Publer free plan: max 10 scheduled per account. Verify in calendar that posts exist; parallel creates can silently drop posts, so create sequentially. R14, R15 (Sun 22 Nov 12:30Z, 18:30Z) still need scheduling."
