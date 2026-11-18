@@ -4,7 +4,7 @@
   "6af9f3911fc93c847bd2daef",
   "6af9f28c1fc93c847bd2d796"
  ],
- "last_reel_number": 30,
+ "last_reel_number": 31,
  "posts": [
   {
    "file": "2026-11-15-R2-pulso-course.mp4",
@@ -414,6 +414,20 @@
    "caption_long": "Why does sound design matter in animated videos?\n\nMuted visuals feel flat. Sound is what makes a video feel premium:\n1. Use a clear voiceover so the message lands in the first seconds.\n2. Add small sound effects on key moments, like a pop or a whoosh.\n3. Keep the music soft so it supports the voice instead of fighting it.\n4. Mix levels so every part is easy to hear on a phone speaker.\n\nPixevon Productions handles script, voiceover, sound effects, music and animation, so every video sounds as good as it looks. Contact us to learn more.\n\n#SoundDesign #AnimationStudio #MotionGraphics #VideoProduction #SocialMediaContent",
    "style": "dark glass icons (v2, dark tiles)",
    "replaces": "R22"
+  },
+  {
+   "file": "2026-11-28-R31-reel-length-v2.mp4",
+   "url": "https://raw.githubusercontent.com/reclaivo/pixevon/main/videos/2026-11-28-R31-reel-length-v2.mp4",
+   "reel": "R31",
+   "type": "Educational tip",
+   "scheduled_at": "2026-11-22T18:30:00Z",
+   "caption": "How long should a social media reel be?\n\nShorter usually wins, as long as the message is complete:\n1. Aim for under 15 seconds so people watch to the end.\n2. Put the hook in the first second, not after an intro.\n3. Cut every line that does not move the story forward.\n4. Finish with one clear next step.\n\nPixevon Productions scripts, times and animates short reels that stay tight and clear, with voice, sound effects and captions included. Contact us to learn more.\n\n#ReelsTips #ShortFormVideo #SocialMediaContent #AnimatedVideos #VideoMarketing",
+   "status": "made",
+   "publer_post_id": null,
+   "topic": "short video length",
+   "caption_long": "How long should a social media reel be?\n\nShorter usually wins, as long as the message is complete:\n1. Aim for under 15 seconds so people watch to the end.\n2. Put the hook in the first second, not after an intro.\n3. Cut every line that does not move the story forward.\n4. Finish with one clear next step.\n\nPixevon Productions scripts, times and animates short reels that stay tight and clear, with voice, sound effects and captions included. Contact us to learn more.\n\n#ReelsTips #ShortFormVideo #SocialMediaContent #AnimatedVideos #VideoMarketing",
+   "style": "dark glass icons (v2, dark tiles)",
+   "replaces": "R24"
   }
  ],
  "note": "Publer free plan: max 10 scheduled per account. Verify in calendar that posts exist; parallel creates can silently drop posts, so create sequentially. R14, R15 (Sun 22 Nov 12:30Z, 18:30Z) still need scheduling."
