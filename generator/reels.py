@@ -255,3 +255,27 @@ R['G9']=dict(title='Documentary vs explainer',scenes=[
  _g('Stories need a documentary.','focus',['reel','heart'],['documentary.'],labels=['Documentary','Story'],post=.3,cont=True,sfx=[('pop',.4),('pop',1.1)]),
  _g('Products need an explainer.','focus',['play','bulb'],['explainer.'],labels=['Explainer','Product'],post=.3,cont=True,sfx=[('pop',.4),('pop',1.1)]),
  END])
+
+# ---- batch R33 to R36 (19 Nov 2026) for Tue 24 and Wed 25 Nov ----
+R['R33']=dict(title='Explainer script',scenes=[
+ _a('How do you write an explainer script?','brief',['script?'],title='Explainer script',type='Problem, solution, action',post=1.1,sfx=[('tick',.4),('tick',.55),('tick',.7),('tick',.85),('thud',1.9)]),
+ _a('Problem first. One idea per line.','timeline',['first.'],title='Studio',post=.5,cont=True,sfx=[('pop',.3),('pop',.7),('pop',1.1),('shimmer',1.9)]),
+ _a('We write it, you approve it.','delivered',['approve'],title='Delivery',post=.5,cont=True,sfx=[('pop',.5),('pop',.8),('pop',1.1),('shimmer',1.5)]),
+ END])
+R['R34']=dict(title='First frame',scenes=[
+ _g('Your first frame is your thumbnail.','chaos',['play','reel','bulb','chart'],['thumbnail.'],post=.3,sfx=[('tick',.3),('tick',.8),('tick',1.4)]),
+ _g('Show the hook right away.','focus',['bulb'],['hook'],labels=['Hook'],post=.3,cont=True,sfx=[('pop',.5),('shimmer',1.0)]),
+ _g('We design every first frame.','line',['bulb','reel','play'],['first'],labels=['Hook','Visual','Reel'],post=.5,cont=True,sfx=[('pop',.3),('pop',.8),('pop',1.3)]),
+ END])
+HOT3=[dict(i=1,j=3,h=300,l='Start'),dict(i=2,j=2,h=220,l='Middle'),dict(i=3,j=1,h=140,l='End')]
+def _c3(line,key=(),**k): return dict(line=line,vis='city',hot=HOT3,key=list(key),pre=.05,post=k.pop('post',.2),**k)
+R['R35']=dict(title='Viewer drop-off',scenes=[
+ _c3('Where do viewers drop off?',['drop'],post=.3,sfx=[('pop',.5),('pop',.8),('pop',1.1)]),
+ _c3('Cut the slow middle.',['middle.'],focus=True,post=.4,cont=True,sfx=[('pop',.4),('pop',1.1)]),
+ _c3('Every second must earn its place.',['earn'],post=.4,sfx=[('shimmer',.6)]),
+ END])
+R['R36']=dict(title='Video format',scenes=[
+ _a('Which video format should you use?','brief',['format'],title='Video format',type='Vertical 9:16 reel',post=1.1,sfx=[('tick',.4),('tick',.55),('tick',.7),('tick',.85),('thud',1.9)]),
+ _a('Vertical for reels. Wide for YouTube.','timeline',['Vertical'],title='Studio',post=.5,cont=True,sfx=[('pop',.3),('pop',.7),('pop',1.1),('shimmer',1.9)]),
+ _a('We deliver every size you need.','delivered',['every'],title='Delivery',post=.5,cont=True,sfx=[('pop',.5),('pop',.8),('pop',1.1),('shimmer',1.5)]),
+ END])

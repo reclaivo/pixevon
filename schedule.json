@@ -4,7 +4,7 @@
   "6af9f3911fc93c847bd2daef",
   "6af9f28c1fc93c847bd2d796"
  ],
- "last_reel_number": 32,
+ "last_reel_number": 36,
  "posts": [
   {
    "file": "2026-11-15-R2-pulso-course.mp4",
@@ -461,7 +461,67 @@
    "note": "deleted by Abyan 18 Nov, replaced by dark-tile remake",
    "replaces": "R26",
    "publer_media_id": "6afe135603943e7707c978b3"
+  },
+  {
+   "file": "2026-11-19-R33-explainer-script.mp4",
+   "url": "https://cdn.jsdelivr.net/gh/reclaivo/pixevon@main/videos/2026-11-19-R33-explainer-script.mp4",
+   "reel": "R33",
+   "type": "Service: explainer videos",
+   "scheduled_at": "2026-11-24T12:30:00Z",
+   "caption": "How do you write an explainer video script?\n\nA good explainer script is short and built for the ear:\n1. Start with the problem your viewer already feels.\n2. Give each line one idea, so the animation can show it.\n3. Read it aloud and cut anything that makes you stumble.\n4. End with one clear next step.\n\nPixevon Productions writes explainer scripts, records the voiceover and animates the video, so you only approve the final result. Contact us to learn more.\n\n#ExplainerVideo #ScriptWriting #AnimationStudio #VideoMarketing #MotionGraphics",
+   "status": "made",
+   "publer_post_id": null,
+   "topic": "explainer script",
+   "caption_long": "How do you write an explainer video script?\n\nA good explainer script is short and built for the ear:\n1. Start with the problem your viewer already feels.\n2. Give each line one idea, so the animation can show it.\n3. Read it aloud and cut anything that makes you stumble.\n4. End with one clear next step.\n\nPixevon Productions writes explainer scripts, records the voiceover and animates the video, so you only approve the final result. Contact us to learn more.\n\n#ExplainerVideo #ScriptWriting #AnimationStudio #VideoMarketing #MotionGraphics",
+   "style": "dark software walkthrough",
+   "publer_media_id": null,
+   "first_comment": "Which line in your script is the weakest?"
+  },
+  {
+   "file": "2026-11-19-R34-first-frame.mp4",
+   "url": "https://cdn.jsdelivr.net/gh/reclaivo/pixevon@main/videos/2026-11-19-R34-first-frame.mp4",
+   "reel": "R34",
+   "type": "Educational tip",
+   "scheduled_at": "2026-11-24T18:30:00Z",
+   "caption": "Why does the first frame of a reel matter?\n\nBefore anyone presses play, the first frame is your thumbnail and your first impression:\n1. Show the hook headline right away, fully readable.\n2. Put the main visual in place so the frame is never empty.\n3. Keep text away from the top and bottom, where app buttons sit.\n4. Check the frame on a phone before you post.\n\nPixevon Productions designs animated reels where the very first frame already tells the story. Contact us to learn more.\n\n#ReelsTips #VideoThumbnail #SocialMediaContent #AnimationStudio #ContentCreation",
+   "status": "made",
+   "publer_post_id": null,
+   "topic": "first frame thumbnail",
+   "caption_long": "Why does the first frame of a reel matter?\n\nBefore anyone presses play, the first frame is your thumbnail and your first impression:\n1. Show the hook headline right away, fully readable.\n2. Put the main visual in place so the frame is never empty.\n3. Keep text away from the top and bottom, where app buttons sit.\n4. Check the frame on a phone before you post.\n\nPixevon Productions designs animated reels where the very first frame already tells the story. Contact us to learn more.\n\n#ReelsTips #VideoThumbnail #SocialMediaContent #AnimationStudio #ContentCreation",
+   "style": "dark glass icons",
+   "publer_media_id": null,
+   "first_comment": "What does your reel thumbnail say about you?"
+  },
+  {
+   "file": "2026-11-19-R35-viewer-drop-off.mp4",
+   "url": "https://cdn.jsdelivr.net/gh/reclaivo/pixevon@main/videos/2026-11-19-R35-viewer-drop-off.mp4",
+   "reel": "R35",
+   "type": "Educational tip",
+   "scheduled_at": "2026-11-25T12:30:00Z",
+   "caption": "Where do viewers drop off in your videos?\n\nMost people leave in the slow middle, not at the start. Here is how to fix it:\n1. Open your analytics and find the moment the audience curve falls.\n2. Cut or tighten the scene right before that drop.\n3. Move your strongest point earlier in the video.\n4. Make every second earn its place, then compare the next upload.\n\nPixevon Productions scripts, times and animates short videos that stay tight from the first frame to the last. Contact us to learn more.\n\n#VideoRetention #ReelsTips #SocialMediaContent #VideoMarketing #AnimatedVideos",
+   "status": "made",
+   "publer_post_id": null,
+   "topic": "retention drop-off",
+   "caption_long": "Where do viewers drop off in your videos?\n\nMost people leave in the slow middle, not at the start. Here is how to fix it:\n1. Open your analytics and find the moment the audience curve falls.\n2. Cut or tighten the scene right before that drop.\n3. Move your strongest point earlier in the video.\n4. Make every second earn its place, then compare the next upload.\n\nPixevon Productions scripts, times and animates short videos that stay tight from the first frame to the last. Contact us to learn more.\n\n#VideoRetention #ReelsTips #SocialMediaContent #VideoMarketing #AnimatedVideos",
+   "style": "dark data city",
+   "publer_media_id": null,
+   "first_comment": "Where do people stop watching your videos?"
+  },
+  {
+   "file": "2026-11-19-R36-video-format.mp4",
+   "url": "https://cdn.jsdelivr.net/gh/reclaivo/pixevon@main/videos/2026-11-19-R36-video-format.mp4",
+   "reel": "R36",
+   "type": "Educational tip",
+   "scheduled_at": "2026-11-25T18:30:00Z",
+   "caption": "Which video format should you use?\n\nThe right shape depends on where people watch:\n1. Use vertical 9:16 for Reels, TikTok and Shorts.\n2. Use wide 16:9 for YouTube and your website.\n3. Keep key text in the center so it survives every crop.\n4. Plan one story and export it in each size you need.\n\nPixevon Productions animates your video once and delivers every format, so one idea works on every platform. Contact us to learn more.\n\n#VideoFormat #ReelsTips #SocialMediaContent #AnimationStudio #VideoProduction",
+   "status": "made",
+   "publer_post_id": null,
+   "topic": "video format sizes",
+   "caption_long": "Which video format should you use?\n\nThe right shape depends on where people watch:\n1. Use vertical 9:16 for Reels, TikTok and Shorts.\n2. Use wide 16:9 for YouTube and your website.\n3. Keep key text in the center so it survives every crop.\n4. Plan one story and export it in each size you need.\n\nPixevon Productions animates your video once and delivers every format, so one idea works on every platform. Contact us to learn more.\n\n#VideoFormat #ReelsTips #SocialMediaContent #AnimationStudio #VideoProduction",
+   "style": "dark software walkthrough",
+   "publer_media_id": null,
+   "first_comment": "Which platform do you post on most?"
   }
  ],
- "note": "Publer free plan: max 10 scheduled per account. Verify in calendar that posts exist; parallel creates can silently drop posts, so create sequentially. R14, R15 (Sun 22 Nov 12:30Z, 18:30Z) still need scheduling."
+ "note": "Publer free plan: max 10 scheduled per account. Verify in calendar that posts exist; parallel creates can silently drop posts, so create sequentially. R14, R15 (Sun 22 Nov 12:30Z, 18:30Z) still need scheduling. 19 Nov: R33 to R36 made (dark, QA checked), waiting for Publer room (cap 10 full until R17 goes live 12:30 UTC 19 Nov): slots Tue 24 12:30 and 18:30, Wed 25 12:30 and 18:30."
 }
