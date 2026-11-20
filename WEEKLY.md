@@ -112,3 +112,11 @@ Every NEW create_post (from now on) must include auto_comment_enabled true and a
 
 ## LINKEDIN FIRST COMMENT FIX (20 Nov 2026), overrides the FIRST COMMENT RULE
 Publer's free plan rejects the auto comment on LinkedIn, and a single create_post to all three accounts then fails partly (Instagram and TikTok created, LinkedIn not). From now on use TWO create_post calls per reel: (1) Instagram + TikTok with auto_comment_enabled true and one question; (2) LinkedIn ONLY (6af9f3911fc93c847bd2daef) WITHOUT any auto comment fields. Never retry a three-account call after a partial result (it hits the 10 cap on the accounts that already have it). A cap error on an account means that post already exists there. R33 to R35 on LinkedIn have no first comment. R35 appears on all three accounts (LinkedIn cap is full at 10).
+
+## LIGHT MODE (Abyan, 20 Nov 2026): keep Claude usage and Zapier tasks as low as possible. Overrides any task prompt.
+1. A run does only what is needed: schedule "made" reels, make only enough new reels to cover about 10 slots, then stop. Never re-verify what the repo already says is scheduled.
+2. No find_post, find_media or find_analytics calls unless a result was unclear. Never poll or sleep-wait. Do not read files or tasks you do not need (do not list completed tasks more than once).
+3. Build all reels of a run in ONE batch with one render pass, check frames once (frame 0 and about 85 percent of each scene), do ONE commit and ONE push per batch, then confirm with a single git ls-remote.
+4. Do not create extra scheduled tasks. Only the one successor main run and the one safety net exist. Never schedule check-in or verify tasks.
+5. The report to Abyan is short: what was scheduled (reel and time), when the queue runs out, next run date, Zapier calls used, problems. No recaps of the steps.
+6. Safety net: no Zapier calls and no message when healthy.
