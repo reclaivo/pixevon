@@ -279,3 +279,25 @@ R['R36']=dict(title='Video format',scenes=[
  _a('Vertical for reels. Wide for YouTube.','timeline',['Vertical'],title='Studio',post=.5,cont=True,sfx=[('pop',.3),('pop',.7),('pop',1.1),('shimmer',1.9)]),
  _a('We deliver every size you need.','delivered',['every'],title='Delivery',post=.5,cont=True,sfx=[('pop',.5),('pop',.8),('pop',1.1),('shimmer',1.5)]),
  END])
+
+# ---- batch R37 to R40 (23 Nov 2026) for Thu 26 and Fri 27 Nov ----
+R['R37']=dict(title='Logo animation',scenes=[
+ _g('Why animate your logo?','chaos',['play','layers','bolt','heart'],['logo?'],post=.3,sfx=[('tick',.3),('tick',.8),('tick',1.4)]),
+ _g('It makes every video feel branded.','focus',['layers'],['branded.'],labels=['Logo'],post=.3,cont=True,sfx=[('pop',.5),('shimmer',1.0)]),
+ _g('We animate it for every format.','line',['layers','play','reel'],['every'],labels=['Logo','Intro','Reel'],post=.5,cont=True,sfx=[('pop',.3),('pop',.8),('pop',1.3)]),
+ END])
+R['R38']=dict(title='Motion ads',scenes=[
+ _a('Short motion ads beat static ads.','brief',['motion'],title='Motion ad',type='Social ad, 15 seconds',post=1.1,sfx=[('tick',.4),('tick',.55),('tick',.7),('tick',.85),('thud',1.9)]),
+ _a('One message. One clear call to action.','timeline',['message.'],title='Studio',post=.5,cont=True,sfx=[('pop',.3),('pop',.7),('pop',1.1),('shimmer',1.9)]),
+ _a('We deliver ads ready to run.','delivered',['ready'],title='Delivery',post=.5,cont=True,sfx=[('pop',.5),('pop',.8),('pop',1.1),('shimmer',1.5)]),
+ END])
+R['R39']=dict(title='Captions on mute',scenes=[
+ _g('Most people watch with the sound off.','chaos',['play','mic','doc','reel'],['off.'],post=.3,sfx=[('tick',.3),('tick',.8),('tick',1.4)]),
+ _g('Add captions to every video.','focus',['doc'],['captions'],labels=['Captions'],post=.3,cont=True,sfx=[('pop',.5),('shimmer',1.0)]),
+ _g('We add them for you.','line',['mic','doc','play'],['you.'],labels=['Voice','Captions','Reel'],post=.5,cont=True,sfx=[('pop',.3),('pop',.8),('pop',1.3)]),
+ END])
+R['R40']=dict(title='Documentary research',scenes=[
+ _a('Great documentaries start with research.','brief',['research.'],title='Documentary',type='Research, script, edit',post=1.1,sfx=[('tick',.4),('tick',.55),('tick',.7),('tick',.85),('thud',1.9)]),
+ _a('We research, script and edit it.','timeline',['research,'],title='Studio',post=.5,cont=True,sfx=[('pop',.3),('pop',.7),('pop',1.1),('shimmer',1.9)]),
+ _a('You get a story worth sharing.','delivered',['story'],title='Delivery',post=.5,cont=True,sfx=[('pop',.5),('pop',.8),('pop',1.1),('shimmer',1.5)]),
+ END])
