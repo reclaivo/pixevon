@@ -530,12 +530,12 @@
    "type": "Educational tip",
    "scheduled_at": "2026-11-26T12:30:00Z",
    "caption": "Why animate your logo?\n\nA moving logo gives every video a recognizable opening and closing. A few tips:\n1. Keep the animation under three seconds so it never slows the hook.\n2. Use the same motion in every video so people remember your brand.\n3. Export a version for vertical reels, wide video and square posts.\n4. Keep the sound subtle and the colors consistent with your brand.\n\nPixevon Productions is an animation studio that creates logo animations in every format, ready for your social media content. Contact us to learn more.\n\n#LogoAnimation #BrandVideo #MotionGraphics #AnimationStudio #SocialMediaContent",
-   "status": "made",
+   "status": "scheduled",
    "publer_post_id": null,
    "topic": "logo animation",
    "caption_long": "Why animate your logo?\n\nA moving logo gives every video a recognizable opening and closing. A few tips:\n1. Keep the animation under three seconds so it never slows the hook.\n2. Use the same motion in every video so people remember your brand.\n3. Export a version for vertical reels, wide video and square posts.\n4. Keep the sound subtle and the colors consistent with your brand.\n\nPixevon Productions is an animation studio that creates logo animations in every format, ready for your social media content. Contact us to learn more.\n\n#LogoAnimation #BrandVideo #MotionGraphics #AnimationStudio #SocialMediaContent",
    "style": "dark glass icons",
-   "publer_media_id": null,
+   "publer_media_id": "6b0413b25fc48d406a8514f7",
    "first_comment": null
   },
   {
@@ -545,12 +545,12 @@
    "type": "Educational tip",
    "scheduled_at": "2026-11-26T18:30:00Z",
    "caption": "Are short motion ads better than static ads?\n\nMotion catches the eye in a fast scroll, and a few simple rules help it work:\n1. Put the hook in the first second so people stop scrolling.\n2. Keep one message and one clear call to action.\n3. Add captions, because many people watch without sound.\n4. Keep the ad under fifteen seconds for social platforms.\n\nPixevon Productions creates motion ads and animated videos that are ready to run on every platform. Contact us to learn more.\n\n#MotionAds #VideoAds #MotionGraphics #AnimationStudio #SocialMediaMarketing",
-   "status": "made",
+   "status": "scheduled",
    "publer_post_id": null,
    "topic": "motion ads",
    "caption_long": "Are short motion ads better than static ads?\n\nMotion catches the eye in a fast scroll, and a few simple rules help it work:\n1. Put the hook in the first second so people stop scrolling.\n2. Keep one message and one clear call to action.\n3. Add captions, because many people watch without sound.\n4. Keep the ad under fifteen seconds for social platforms.\n\nPixevon Productions creates motion ads and animated videos that are ready to run on every platform. Contact us to learn more.\n\n#MotionAds #VideoAds #MotionGraphics #AnimationStudio #SocialMediaMarketing",
    "style": "dark software walkthrough",
-   "publer_media_id": null,
+   "publer_media_id": "6b0413cc7779a0edaf3eef86",
    "first_comment": null
   },
   {
@@ -560,12 +560,12 @@
    "type": "Educational tip",
    "scheduled_at": "2026-11-27T12:30:00Z",
    "caption": "Should you add captions to your videos?\n\nMost people scroll with the sound off, so captions decide if your video gets understood. Three tips:\n1. Show the key words big, in the safe area of the screen.\n2. Match captions to the voice so they feel natural.\n3. Use high contrast so text stays readable on any background.\n\nPixevon Productions adds clear captions to every animated video and social media reel we make, so your message works with or without sound. Contact us to learn more.\n\n#VideoCaptions #ReelsTips #SocialMediaContent #AnimationStudio #VideoMarketing",
-   "status": "made",
+   "status": "scheduled",
    "publer_post_id": null,
    "topic": "captions on mute",
    "caption_long": "Should you add captions to your videos?\n\nMost people scroll with the sound off, so captions decide if your video gets understood. Three tips:\n1. Show the key words big, in the safe area of the screen.\n2. Match captions to the voice so they feel natural.\n3. Use high contrast so text stays readable on any background.\n\nPixevon Productions adds clear captions to every animated video and social media reel we make, so your message works with or without sound. Contact us to learn more.\n\n#VideoCaptions #ReelsTips #SocialMediaContent #AnimationStudio #VideoMarketing",
    "style": "dark glass icons",
-   "publer_media_id": null,
+   "publer_media_id": "6b0413e97779a0edaf3eefd4",
    "first_comment": null
   },
   {
@@ -575,14 +575,14 @@
    "type": "Educational tip",
    "scheduled_at": "2026-11-27T18:30:00Z",
    "caption": "How do you make a great short documentary?\n\nGood documentaries are built before the first scene is edited. Here is a simple order:\n1. Research the story and find the people who know it best.\n2. Write a short script with a clear beginning, middle and end.\n3. Edit for pace, and cut anything that does not serve the story.\n\nPixevon Productions researches, scripts, voices and edits short documentaries for brands and creators. Contact us to learn more.\n\n#ShortDocumentary #Documentary #VideoProduction #Storytelling #AnimationStudio",
-   "status": "made",
+   "status": "scheduled",
    "publer_post_id": null,
    "topic": "documentary research",
    "caption_long": "How do you make a great short documentary?\n\nGood documentaries are built before the first scene is edited. Here is a simple order:\n1. Research the story and find the people who know it best.\n2. Write a short script with a clear beginning, middle and end.\n3. Edit for pace, and cut anything that does not serve the story.\n\nPixevon Productions researches, scripts, voices and edits short documentaries for brands and creators. Contact us to learn more.\n\n#ShortDocumentary #Documentary #VideoProduction #Storytelling #AnimationStudio",
    "style": "dark software walkthrough",
-   "publer_media_id": null,
+   "publer_media_id": "6b041401e282ef63a3c459e1",
    "first_comment": null
   }
  ],
- "note": "Publer free plan: max 10 scheduled per account. Verify in calendar that posts exist; parallel creates can silently drop posts, so create sequentially. R14, R15 (Sun 22 Nov 12:30Z, 18:30Z) still need scheduling. 19 Nov: R33 to R36 made (dark, QA checked), waiting for Publer room (cap 10 full until R17 goes live 12:30 UTC 19 Nov): slots Tue 24 12:30 and 18:30, Wed 25 12:30 and 18:30. 20 Nov 17:30Z: R33, R34 scheduled (with first comment). R35 created in two calls (first with comment failed on LinkedIn, retry without comment hit cap on IG/TikTok, so IG/TikTok likely exist from call 1 and LinkedIn from call 2): VERIFY R35 on all 3 accounts in Publer, do not recreate blindly. LinkedIn free plan rejects auto comments. R36 still made (cap full), slot Wed 25 18:30Z. Successor task could not be created in the 20 Nov run (needs user approval)."
+ "note": "23 Nov: R36 to R40 scheduled (queue through Fri 27 Nov 18:30Z). Auto first comment is now rejected by Publer free plan on Instagram too, so posts go without it. Slot-taken errors mean the post exists. Successor task could not be created by the scheduled run (needs live approval)."
 }
