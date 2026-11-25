@@ -301,3 +301,32 @@ R['R40']=dict(title='Documentary research',scenes=[
  _a('We research, script and edit it.','timeline',['research,'],title='Studio',post=.5,cont=True,sfx=[('pop',.3),('pop',.7),('pop',1.1),('shimmer',1.9)]),
  _a('You get a story worth sharing.','delivered',['story'],title='Delivery',post=.5,cont=True,sfx=[('pop',.5),('pop',.8),('pop',1.1),('shimmer',1.5)]),
  END])
+
+# ---- batch R41 to R45 (25 Nov 2026) for Sat 28 Nov to Mon 30 Nov ----
+R['R41']=dict(title='Content calendar',scenes=[
+ _g('Why plan a content calendar?','chaos',['doc','play','reel','bulb'],['calendar?'],post=.3,sfx=[('tick',.3),('tick',.8),('tick',1.4)]),
+ _g('Plan once. Post all month.','focus',['doc'],['month.'],labels=['Calendar'],post=.3,cont=True,sfx=[('pop',.5),('shimmer',1.0)]),
+ _g('We build the whole month.','line',['doc','reel','play'],['whole'],labels=['Plan','Reel','Post'],post=.5,cont=True,sfx=[('pop',.3),('pop',.8),('pop',1.3)]),
+ END])
+HOT4=[dict(i=1,j=3,h=140,l='Week 1'),dict(i=2,j=2,h=220,l='Week 2'),dict(i=3,j=1,h=300,l='Week 3')]
+def _c4(line,key=(),**k): return dict(line=line,vis='city',hot=HOT4,key=list(key),pre=.05,post=k.pop('post',.2),**k)
+R['R42']=dict(title='Posting consistency',scenes=[
+ _c4('How often should you post?',['often'],post=.3,sfx=[('pop',.5),('pop',.8),('pop',1.1)]),
+ _c4('Steady beats rare bursts.',['Steady'],focus=True,post=.4,cont=True,sfx=[('pop',.4),('pop',1.1)]),
+ _c4('We keep your feed active.',['active.'],post=.4,sfx=[('shimmer',.6)]),
+ END])
+R['R43']=dict(title='Animation vs live action',scenes=[
+ _a('Why choose animation over live action?','brief',['animation'],title='Animated explainer',type='No cameras needed',post=1.1,sfx=[('tick',.4),('tick',.55),('tick',.7),('tick',.85),('thud',1.9)]),
+ _a('No cameras. No reshoots.','timeline',['reshoots.'],title='Studio',post=.5,cont=True,sfx=[('pop',.3),('pop',.7),('pop',1.1),('shimmer',1.9)]),
+ _a('We animate your idea.','delivered',['idea.'],title='Delivery',post=.5,cont=True,sfx=[('pop',.5),('pop',.8),('pop',1.1),('shimmer',1.5)]),
+ END])
+R['R44']=dict(title='Call to action',scenes=[
+ _g('What should your call to action say?','chaos',['bolt','mic','check','play'],['say?'],post=.3,sfx=[('tick',.3),('tick',.8),('tick',1.4)]),
+ _g('One clear next step.','focus',['check'],['step.'],labels=['Action'],post=.3,cont=True,sfx=[('pop',.5),('shimmer',1.0)]),
+ _g('We end every video with one.','line',['play','bolt','check'],['one.'],labels=['Video','Hook','Action'],post=.5,cont=True,sfx=[('pop',.3),('pop',.8),('pop',1.3)]),
+ END])
+R['R45']=dict(title='Video brief',scenes=[
+ _a('What belongs in a video brief?','brief',['brief?'],title='Video brief',type='Goal, audience, length',post=1.1,sfx=[('tick',.4),('tick',.55),('tick',.7),('tick',.85),('thud',1.9)]),
+ _a('Goal. Audience. Length.','timeline',['Audience.'],title='Studio',post=.5,cont=True,sfx=[('pop',.3),('pop',.7),('pop',1.1),('shimmer',1.9)]),
+ _a('We turn it into a video.','delivered',['video.'],title='Delivery',post=.5,cont=True,sfx=[('pop',.5),('pop',.8),('pop',1.1),('shimmer',1.5)]),
+ END])
