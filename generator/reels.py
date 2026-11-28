@@ -330,3 +330,43 @@ R['R45']=dict(title='Video brief',scenes=[
  _a('Goal. Audience. Length.','timeline',['Audience.'],title='Studio',post=.5,cont=True,sfx=[('pop',.3),('pop',.7),('pop',1.1),('shimmer',1.9)]),
  _a('We turn it into a video.','delivered',['video.'],title='Delivery',post=.5,cont=True,sfx=[('pop',.5),('pop',.8),('pop',1.1),('shimmer',1.5)]),
  END])
+
+# ---- batch R46 to R52 (28 Nov 2026) for Tue 1 Dec to Tue 8 Dec ----
+R['R46']=dict(title='Product demo video',scenes=[
+ _g('Why make a product demo video?','chaos',['tool','play','check','doc'],['demo'],post=.3,sfx=[('tick',.3),('tick',.8),('tick',1.4)]),
+ _g('Show it working in seconds.','focus',['play'],['seconds.'],labels=['Demo'],post=.3,cont=True,sfx=[('pop',.5),('shimmer',1.0)]),
+ _g('We animate your product story.','line',['tool','play','check'],['story.'],labels=['Product','Demo','Result'],post=.5,cont=True,sfx=[('pop',.3),('pop',.8),('pop',1.3)]),
+ END])
+R['R47']=dict(title='Content packages',scenes=[
+ _a('Need a month of social content?','calendar',['month'],title='Content package',post=.9,sfx=[('tick',.3),('tick',.6),('tick',.9),('tick',1.2),('tick',1.5)]),
+ _a('We make the whole package.','delivered',['package.'],title='Delivery',post=.5,cont=True,sfx=[('pop',.5),('pop',.8),('pop',1.1),('shimmer',1.5)]),
+ END])
+HOT5=[dict(i=1,j=3,h=210,l='Reel 1'),dict(i=2,j=2,h=300,l='Reel 2'),dict(i=3,j=1,h=250,l='Reel 3')]
+def _c5(line,key=(),**k): return dict(line=line,vis='city',hot=HOT5,key=list(key),pre=.05,post=k.pop('post',.2),**k)
+R['R48']=dict(title='Which videos work',scenes=[
+ _c5('Which of your videos work best?',['best?'],post=.3,sfx=[('pop',.5),('pop',.8),('pop',1.1)]),
+ _c5('Compare them. Keep the winners.',['winners.'],focus=True,post=.4,cont=True,sfx=[('pop',.4),('pop',1.1)]),
+ _c5('We make more of what works.',['works.'],post=.4,sfx=[('shimmer',.6)]),
+ END])
+R['R49']=dict(title='Testimonial video',scenes=[
+ _g('Why use customer testimonial videos?','chaos',['heart','play','check','mic'],['testimonial'],post=.3,sfx=[('tick',.3),('tick',.8),('tick',1.4)]),
+ _g('Real stories build trust.','focus',['heart'],['trust.'],labels=['Trust'],post=.3,cont=True,sfx=[('pop',.5),('shimmer',1.0)]),
+ _g('We edit them into short reels.','line',['mic','play','heart'],['short'],labels=['Voice','Reel','Trust'],post=.5,cont=True,sfx=[('pop',.3),('pop',.8),('pop',1.3)]),
+ END])
+R['R50']=dict(title='Production timeline',scenes=[
+ _a('How long does an animated video take?','brief',['long'],title='Animated video',type='Brief to delivery',post=1.1,sfx=[('tick',.4),('tick',.55),('tick',.7),('tick',.85),('thud',1.9)]),
+ _a('Script, voice, animation, delivery.','timeline',['delivery.'],title='Studio',post=.5,cont=True,sfx=[('pop',.3),('pop',.7),('pop',1.1),('shimmer',1.9)]),
+ _a('We keep you updated.','delivered',['updated.'],title='Delivery',post=.5,cont=True,sfx=[('pop',.5),('pop',.8),('pop',1.1),('shimmer',1.5)]),
+ END])
+R['R51']=dict(title='Intro and outro',scenes=[
+ _g('Does your video need an intro?','chaos',['play','layers','bolt','heart'],['intro?'],post=.3,sfx=[('tick',.3),('tick',.8),('tick',1.4)]),
+ _g('Keep it short. Keep it branded.','focus',['layers'],['branded.'],labels=['Intro'],post=.3,cont=True,sfx=[('pop',.5),('shimmer',1.0)]),
+ _g('We animate intros and outros.','line',['layers','play','bolt'],['outros.'],labels=['Intro','Video','Outro'],post=.5,cont=True,sfx=[('pop',.3),('pop',.8),('pop',1.3)]),
+ END])
+HOT6=[dict(i=1,j=3,h=180,l='Week 1'),dict(i=2,j=2,h=250,l='Week 2'),dict(i=3,j=1,h=320,l='Week 3')]
+def _c6(line,key=(),**k): return dict(line=line,vis='city',hot=HOT6,key=list(key),pre=.05,post=k.pop('post',.2),**k)
+R['R52']=dict(title='Monthly review',scenes=[
+ _c6('Do you review your videos monthly?',['monthly?'],post=.3,sfx=[('pop',.5),('pop',.8),('pop',1.1)]),
+ _c6('Small tweaks add up over time.',['tweaks'],focus=True,post=.4,cont=True,sfx=[('pop',.4),('pop',1.1)]),
+ _c6('We refine your content every month.',['month.'],post=.4,sfx=[('shimmer',.6)]),
+ END])
